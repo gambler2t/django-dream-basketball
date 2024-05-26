@@ -1,0 +1,103 @@
+{% extends 'nav.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="container">
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header text-center">
+                        <h4 class="card-title">{{ team.name }}</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-3">
+                                {% if team.logo %}
+                                    <img src="{{ team.logo.url }}" class="img-fluid" alt="{{ team.name }} Logo">
+                                {% else %}
+                                    <img src="{% static 'img/placeholder.jpeg' %}" class="img-fluid" alt="Placeholder">
+                                {% endif %}
+                            </div>
+                            <div class="col-md-8">
+                                <p><strong>Капитан:</strong> {{ team.captain.first_name }} {{ team.captain.last_name }}
+                                </p>
+                                <p><strong>Игры:</strong> {{ team.games }}</p>
+                                <p><strong>Победы:</strong> {{ team.wins }}</p>
+                                <p><strong>Поражения:</strong> {{ team.loses }}</p>
+                                <p><strong>Процент побед:</strong> {{ team.win_percent|floatformat:2 }}%</p>
+                                <p><strong>Описание:</strong> {{ team.description }}</p>
+                                {% if request.user == team.captain %}
+                                    <a href="{% url 'team_remove' team.id %}" class="btn btn-outline-danger mt-3">
+                                        Распустить команду</a>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% if request.user == team.captain %}
+                    <a href="{% url 'team_invite' team.id %}" class="btn btn-outline-primary mt-3">Пригласить игрока</a>
+                {% endif %}
+                {% if is_player %}
+                    <a href="{% url 'inside_info' team.id %}" class="btn btn-outline-primary mt-3">Файлы команды</a>
+                {% endif %}
+                <div class="card mt-4">
+                    <div class="card-header text-center">
+                        <h4 class="card-title">Игроки команды</h4>
+                    </div>
+                    <div class="card-body">
+                        {% if players %}
+                            <ul class="list-group">
+                                {% for player in players %}
+                                    <li class="list-group-item">
+                                        {{ player.user.first_name }} {{ player.user.last_name }}
+                                        <a href="{% url 'profile' player.user.id %}"
+                                           class="text-decoration-none text-reset">
+                                            <i class="fa-solid fa-user"></i>
+                                        </a>
+                                        {% if request.user == team.captain %}
+                                            {% if player.user != team.captain %}
+                                                <a href="" class="float-end remove text-decoration-none text-reset" 
+                                                   data-remove-player="{{ player.id }}">
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </a>
+                                            {% endif %}
+                                        {% endif %}
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        {% else %}
+                            <p>В данный момент в команде нет игроков.</p>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://kit.fontawesome.com/5b20d6f848.js" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $('.remove').click(function (e) {
+                e.preventDefault();
+                let team = {{ team.id }};
+                let player = $(this).data('remove-player');
+                console.log(player);
+                
+                let url = '/delete_player/' + team + '/' + player + '/';
+                $.ajax({
+                    url: url,
+                    type: 'POST',
+                    data: { 
+                        team: team,
+                        player: player,
+                        csrfmiddlewaretoken: '{{ csrf_token }}' 
+                    },
+                    success: function () {
+                        location.reload();
+                    }
+                });
+            });
+        });
+
+    </script>
+{% endblock %}

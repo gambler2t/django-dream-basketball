@@ -1,0 +1,424 @@
+{% extends 'nav.html' %}
+{% block title %}Информация о матче{% endblock %}
+{% block content %}
+
+    <style>
+        .predictions-container {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .fadeInUp {
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .chat-container {
+            background-color: #f8f9fa;
+            border-radius: 5px;
+            padding: 20px;
+        }
+
+        .chat-messages {
+            height: 400px;
+            overflow-y: auto;
+            margin-bottom: 20px;
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        .chat-message {
+            margin-bottom: 10px;
+        }
+
+        .message-header {
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+            color: #6c757d;
+            margin-bottom: 5px;
+        }
+
+        .message-time {
+            font-size: 12px;
+        }
+
+        .message-content {
+            background-color: #ffffff;
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        .chat-form {
+            margin-top: 20px;
+        }
+    </style>
+    <div class="container">
+        <h1>Информация о матче</h1>
+
+        <div class="row mt-3">
+            <!-- блок с командами(название, лого) -->
+            <div class="row">
+                <div class="col-4">
+                    <div class="d-flex justify-content-center">
+                        <img src="{{ team1.logo_links }}" alt="" style="width: 100px; height: 100px">
+                    </div>
+                </div>
+                <!-- блок информацией о матче(дата, время) -->
+                <div class="col-4">
+                    <div class="d-flex justify-content-center">
+                        <h4>{{ match.date }}</h4>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <h3>{{ match.place }}</h3>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="d-flex justify-content-center">
+                        <img src="{{ team2.logo_links }}" alt="" style="width: 100px; height: 100px">
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-4">
+                    <div class="d-flex justify-content-center">
+                        <h3>{{ team1.name }}</h3>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="d-flex justify-content-center">
+                        {% if match.result != 'not played' %}
+                            <h3>{{ match.score }}</h3>
+                        {% else %}
+                            <h3>VS</h3>
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="d-flex justify-content-center">
+                        <h3>{{ team2.name }}</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% if match.result != 'not played' %}
+            <h4 style="margin-top: 50px;">Статистика игроков команды {{ title1 }}</h4>
+            <div class="row mt-3">
+                <table class="table text-center table-sm">
+                    <thead>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th colspan="2">2-очковые</th>
+                        <th colspan="2">3-очковые</th>
+                        <th colspan="2">Штрафные</th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th rowspan="2"></th>
+                        <th rowspan="2">Игрок</th>
+                        <th rowspan="2">О</th>
+                        <th>3/В</th>
+                        <th>%</th>
+                        <th>3/В</th>
+                        <th>%</th>
+                        <th>3/В</th>
+                        <th>%</th>
+                        <th rowspan="2">ПБ</th>
+                        <th rowspan="2">АП</th>
+                        <th rowspan="2">Ф</th>
+                        <th rowspan="2">ПХ</th>
+                        <th rowspan="2">П</th>
+                        <th rowspan="2">БШ</th>
+                        <th rowspan="2">Мин</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for player in team1_players %}
+                        <tr>
+                            <td>{{ forloop.counter }}</td>
+                            <td>{{ player.1 }}</td>
+                            <td>{{ player.2 }}</td>
+                            <td>{{ player.3 }}</td>
+                            <td>{{ player.4 }}</td>
+                            <td>{{ player.5 }}</td>
+                            <td>{{ player.6 }}</td>
+                            <td>{{ player.7 }}</td>
+                            <td>{{ player.8 }}</td>
+
+                            <td>{{ player.9 }}</td>
+                            <td>{{ player.10 }}</td>
+                            <td>{{ player.11 }}</td>
+                            <td>{{ player.12 }}</td>
+                            <td>{{ player.13 }}</td>
+                            <td>{{ player.14 }}</td>
+                            <td>{{ player.15 }}</td>
+                        </tr>
+                    {% endfor %}
+                </table>
+                <p>О – набранные очки, з – забитые броски, в – выполненные броски, пб – подборы, ап – передачи, ф –
+                    фолы, пх
+                    – перехваты, п – потери, бш – блокшоты</p>
+            </div>
+
+            <h4>Статистика игроков команды {{ title2 }}</h4>
+            <div class="row mt-3">
+                <table class="table text-center table-sm">
+                    <thead>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th colspan="2">2-очковые</th>
+                        <th colspan="2">3-очковые</th>
+                        <th colspan="2">Штрафные</th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th rowspan="2"></th>
+                        <th rowspan="2">Игрок</th>
+                        <th rowspan="2">О</th>
+                        <th>3/В</th>
+                        <th>%</th>
+                        <th>3/В</th>
+                        <th>%</th>
+                        <th>3/В</th>
+                        <th>%</th>
+                        <th rowspan="2">ПБ</th>
+                        <th rowspan="2">АП</th>
+                        <th rowspan="2">Ф</th>
+                        <th rowspan="2">ПХ</th>
+                        <th rowspan="2">П</th>
+                        <th rowspan="2">БШ</th>
+                        <th rowspan="2">Мин</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for player in team2_players %}
+                        <tr>
+                            <td>{{ forloop.counter }}</td>
+                            <td>{{ player.1 }}</td>
+                            <td>{{ player.2 }}</td>
+                            <td>{{ player.3 }}</td>
+                            <td>{{ player.4 }}</td>
+                            <td>{{ player.5 }}</td>
+                            <td>{{ player.6 }}</td>
+                            <td>{{ player.7 }}</td>
+                            <td>{{ player.8 }}</td>
+                            <td>{{ player.9 }}</td>
+                            <td>{{ player.10 }}</td>
+                            <td>{{ player.11 }}</td>
+                            <td>{{ player.12 }}</td>
+                            <td>{{ player.13 }}</td>
+                            <td>{{ player.14 }}</td>
+                            <td>{{ player.15 }}</td>
+                        </tr>
+                    {% endfor %}
+                </table>
+                <p>О – набранные очки, з – забитые броски, в – выполненные броски, пб – подборы, ап – передачи, ф –
+                    фолы, пх
+                    – перехваты, п – потери, бш – блокшоты</p>
+            </div>
+        {% endif %}
+        <div class="row mt-3">
+            <div class="col-6">
+                <h5>Последние матчи команды {{ match.name_team1 }}</h5>
+                <div class="table">
+                    <table class="table table-bordered">
+                        <thead>
+                        <tr>
+                            <th>Команда</th>
+                            <th class="text-center">Счет</th>
+                            <th>Команда</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {% for match in team1_matches %}
+                            <tr>
+                                <td class="col-md-4">{{ match.name_team1 }}</td>
+                                <td class="col-md-4 text-center">{{ match.score }}<br><small>{{ match.date }}</small>
+                                <td class="col-md-4">{{ match.name_team2 }}</td>
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-6">
+                <h5>Последние матчи команды {{ match.name_team2 }}</h5>
+                <div class="table">
+                    <table class="table table-bordered">
+                        <thead>
+                        <tr>
+                            <th>Команда</th>
+                            <th class="text-center">Счет</th>
+                            <th>Команда</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {% for match in team2_matches %}
+                            <tr>
+                                <td class="col-md-4">{{ match.name_team1 }}</td>
+                                <td class="col-md-4 text-center">{{ match.score }}<br><small>{{ match.date }}</small>
+                                <td class="col-md-4">{{ match.name_team2 }}</td>
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% if match.result == 'not played' %}
+        <div class="predictions-container animate__animated animate__fadeInUp">
+            <div class="row mt-3">
+                {% if subscription %}
+                    <div class="col-12">
+                        <div class="d-flex justify-content-center">
+                            <h4>Прогноз</h4>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="d-flex justify-content-center">
+                            <h5>{{ result }}</h5>
+                        </div>
+                    </div>
+                {% else %}
+                    <div class="col-12">
+                        <div class="d-flex justify-content-center">
+                            <h5>Для просмотра прогноза необходимо <a href="{% url 'buy_subscription' %}">приобрести</a>
+                                подписку или <a
+                                        href="{% url 'buy_subscription' %}">оформить</a> промо-период</h5>
+                        </div>
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    {% endif %}
+    {% if is_today %}
+    <div class="container mt-5">
+        <div class="chat-container">
+            <h3>Чат матча</h3>
+            <div class="chat-messages">
+                {% for message in chat_messages %}
+                    <div class="chat-message" data-message-id="{{ message.id }}">
+                        <div class="message-header">
+                            <strong>{{ message.user.username }}</strong>
+                            <span class="message-time">{{ message.timestamp|date:"H:i" }}</span>
+                        </div>
+                        <div class="message-content">{{ message.message }}</div>
+                    </div>
+                {% endfor %}
+            </div>
+            {% if request.user.is_authenticated %}
+                <form id="chat-form" class="chat-form">
+                    {% csrf_token %}
+                    <div class="input-group">
+                        <input type="text" id="chat-input" class="form-control" placeholder="Введите сообщение">
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-primary">Отправить</button>
+                        </div>
+                    </div>
+                </form>
+            {% else %}
+                <p class="text-center">Для участия в чате необходимо <a href="{% url 'login_view' %}">авторизоваться</a>.</p>
+            {% endif %}
+        </div>
+    </div>
+    {% endif %}
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var lastMessageId = 0;
+            var matchId = {{ match.id }};
+
+            function getNewMessages() {
+                $.ajax({
+                    url: "{% url 'get_new_chat_messages' match.id %}",
+                    data: {
+                        'last_message_id': lastMessageId
+                    },
+                    success: function (data) {
+                        var messages = data.messages;
+                        var $chatMessages = $('.chat-messages');
+                        $.each(messages, function (index, message) {
+                            var $existingMessage = $chatMessages.find('.chat-message[data-message-id="' + message.id + '"]');
+                            if ($existingMessage.length === 0) {
+                                var messageHtml = '<div class="chat-message" data-message-id="' + message.id + '">' +
+                                    '<div class="message-header">' +
+                                    '<strong>' + message.user__username + '</strong>' +
+                                    '<span class="message-time">' + formatTimestamp(message.timestamp) + '</span>' +
+                                    '</div>' +
+                                    '<div class="message-content">' + message.message + '</div>' +
+                                    '</div>';
+                                $chatMessages.append(messageHtml);
+                            }
+                            lastMessageId = message.id;
+                        });
+                        $chatMessages.scrollTop($chatMessages[0].scrollHeight);
+                    }
+                });
+            }
+
+            function formatTimestamp(timestamp) {
+                var date = new Date(timestamp);
+                var hours = date.getHours();
+                var minutes = date.getMinutes();
+                if (minutes < 10) {
+                    minutes = '0' + minutes;
+                }
+                return hours + ':' + minutes;
+            }
+
+            setInterval(getNewMessages, 1500); // Проверяем наличие новых сообщений каждые 1.5 секунды
+
+            $('#chat-form').submit(function (event) {
+                event.preventDefault(); // Предотвращаем стандартную отправку формы
+                var message = $('#chat-input').val().trim();
+                if (message) {
+                    $.ajax({
+                        type: 'POST',
+                        url: "{% url 'send_chat_message' match.id %}",
+                        data: {
+                            'message': message,
+                            'csrfmiddlewaretoken': '{{ csrf_token }}'
+                        },
+                        success: function (data) {
+                            $('#chat-input').val(''); // Очищаем поле ввода
+                            getNewMessages(); // Обновляем список сообщений
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+{% endblock %}

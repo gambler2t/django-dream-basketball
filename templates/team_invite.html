@@ -1,0 +1,73 @@
+{% extends 'nav.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="container">
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header text-center">
+                        <h4 class="card-title">Пригласить игрока в команду {{ team.name }}</h4>
+                    </div>
+                    <div class="card-body">
+                        <form method="post" action="{% url 'team_invite' team.id %}">
+                            {% csrf_token %}
+                            <div class="form-group">
+                                <label for="userSearch">Поиск пользователя</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" id="userSearch" name="userSearch"
+                                           placeholder="Введите имя пользователя">
+                                    <div class="input-group-append">
+                                        <button type="submit" class="btn btn-outline-primary">Поиск</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {% if results %}
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-8">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5>Результаты поиска</h5>
+                        </div>
+                        <div class="card-body">
+                            {% for r in results %}
+                                <div class="row align-items-center justify-content-center mb-3">
+                                    <div class="col-md-8">
+                                        <p class="mb-0">{{ r.name }}</p>
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                        <a href="{% url 'invite_player' team.id r.id %}"
+                                           class="btn btn-outline-primary">Пригласить</a>
+                                    </div>
+
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endif %}
+        <div class="row justify-content-center mt-4">
+            {% if error %}
+                <div class="col-md-8 mt-2">
+                    <div class="alert alert-danger">
+                        {{ error }}
+                    </div>
+                </div>
+            {% endif %}
+            {% if success %}
+                <div class="col-md-8 mt-2">
+                    <div class="alert alert-success">
+                        {{ success }}
+                    </div>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+{% endblock %}

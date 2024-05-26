@@ -1,0 +1,584 @@
+Команда 1,Дата,Турнир,Команда 2,Место проведения,Счет,Результат,Ссылка,Время
+УНИКС,16.10.2023,Единая лига ВТБ,Минск,В гостях,49 : 97,win,https://www.sports.ru/basketball/match/1704953/,18:30
+УНИКС,19.10.2023,Единая лига ВТБ,Уралмаш,Дома,94 : 67,win,https://www.sports.ru/basketball/match/1704948/,19:00
+УНИКС,22.10.2023,Единая лига ВТБ,Самара,В гостях,104 : 93,lose,https://www.sports.ru/basketball/match/1704939/,17:00
+УНИКС,29.10.2023,Единая лига ВТБ,Автодор,В гостях,72 : 82,win,https://www.sports.ru/basketball/match/1704918/,16:00
+УНИКС,02.11.2023,Единая лига ВТБ,Астана,Дома,96 : 65,win,https://www.sports.ru/basketball/match/1704909/,19:00
+УНИКС,05.11.2023,Единая лига ВТБ,Зенит,В гостях,83 : 93,win,https://www.sports.ru/basketball/match/1704896/,16:00
+УНИКС,09.11.2023,Единая лига ВТБ,Руна,Дома,83 : 86,lose,https://www.sports.ru/basketball/match/1704883/,19:00
+УНИКС,12.11.2023,Единая лига ВТБ,Парма,В гостях,77 : 87,win,https://www.sports.ru/basketball/match/1704876/,14:30
+УНИКС,18.11.2023,Единая лига ВТБ,Енисей,Дома,91 : 80,win,https://www.sports.ru/basketball/match/1704852/,18:00
+УНИКС,23.11.2023,Единая лига ВТБ,ЦСКА,Дома,66 : 79,lose,https://www.sports.ru/basketball/match/1704832/,19:30
+УНИКС,26.11.2023,Единая лига ВТБ,МБА,Дома,87 : 78,win,https://www.sports.ru/basketball/match/1704823/,18:00
+УНИКС,02.12.2023,Единая лига ВТБ,Локомотив-Кубань,В гостях,82 : 75,lose,https://www.sports.ru/basketball/match/1704806/,14:00
+УНИКС,06.12.2023,Единая лига ВТБ,Пари Нижний Новгород,Дома,91 : 61,win,https://www.sports.ru/basketball/match/1704790/,19:00
+УНИКС,11.12.2023,Единая лига ВТБ,Астана,В гостях,75 : 97,win,https://www.sports.ru/basketball/match/astana-vs-unics/,17:00
+УНИКС,18.12.2023,Единая лига ВТБ,Уралмаш,В гостях,80 : 89,win,https://www.sports.ru/basketball/match/unics-vs-uralmash/,17:15
+УНИКС,21.12.2023,Единая лига ВТБ,Минск,Дома,101 : 81,win,https://www.sports.ru/basketball/match/cmoki-minsk-vs-unics/,19:00
+УНИКС,24.12.2023,Единая лига ВТБ,Самара,Дома,81 : 61,win,https://www.sports.ru/basketball/match/1704730/,18:00
+УНИКС,30.12.2023,Единая лига ВТБ,Пари Нижний Новгород,В гостях,61 : 70,win,https://www.sports.ru/basketball/match/bk-nizhni-novgorod-vs-unics/,14:30
+УНИКС,05.01.2024,Единая лига ВТБ,Руна,В гостях,78 : 84,win,https://www.sports.ru/basketball/match/runa-vs-unics/,17:00
+УНИКС,08.01.2024,Единая лига ВТБ,Енисей,В гостях,94 : 80,lose,https://www.sports.ru/basketball/match/1704702/,13:00
+УНИКС,13.01.2024,Единая лига ВТБ,Парма,Дома,70 : 72,lose,https://www.sports.ru/basketball/match/1704686/,18:00
+УНИКС,20.01.2024,Единая лига ВТБ,Зенит,Дома,64 : 61,win,https://www.sports.ru/basketball/match/1704664/,15:00
+УНИКС,23.01.2024,Единая лига ВТБ,МБА,В гостях,62 : 85,win,https://www.sports.ru/basketball/match/mba-vs-unics/,19:30
+УНИКС,27.01.2024,Единая лига ВТБ,Автодор,Дома,89 : 71,win,https://www.sports.ru/basketball/match/avtodor-vs-unics/,18:30
+УНИКС,04.02.2024,Единая лига ВТБ,ЦСКА,В гостях,73 : 83,win,https://www.sports.ru/basketball/match/1704614/,14:00
+УНИКС,10.02.2024,Единая лига ВТБ,Енисей,Дома,107 : 84,win,https://www.sports.ru/basketball/match/1741447/,17:00
+УНИКС,02.03.2024,Единая лига ВТБ,Локомотив-Кубань,Дома,80 : 76,win,https://www.sports.ru/basketball/match/1742992/,14:00
+УНИКС,05.03.2024,Единая лига ВТБ,ЦСКА,В гостях,78 : 84,win,https://www.sports.ru/basketball/match/1742987/,20:00
+УНИКС,09.03.2024,Единая лига ВТБ,Парма,В гостях,82 : 80,lose,https://www.sports.ru/basketball/match/1742980/,16:00
+УНИКС,16.03.2024,Единая лига ВТБ,Енисей,В гостях,69 : 93,win,https://www.sports.ru/basketball/match/enisey-vs-unics/,13:00
+УНИКС,21.03.2024,Единая лига ВТБ,Зенит,Дома,91 : 90,win,https://www.sports.ru/basketball/match/1742964/,19:00
+УНИКС,26.03.2024,Единая лига ВТБ,Локомотив-Кубань,В гостях,90 : 82,lose,https://www.sports.ru/basketball/match/1742954/,20:00
+УНИКС,30.03.2024,Единая лига ВТБ,Парма,Дома,86 : 89,lose,https://www.sports.ru/basketball/match/parma-vs-unics/,18:00
+УНИКС,05.04.2024,Единая лига ВТБ,Зенит,В гостях,91 : 87,lose,https://www.sports.ru/basketball/match/unics-vs-zenit/,19:30
+УНИКС,13.04.2024,Единая лига ВТБ,ЦСКА,Дома,88 : 78,win,https://www.sports.ru/basketball/match/bk-cska-vs-unics/,18:00
+УНИКС,23.04.2024,Единая лига ВТБ,Самара,Дома,83 : 73,win,https://www.sports.ru/basketball/match/1759770/,19:00
+УНИКС,25.04.2024,Единая лига ВТБ,Самара,Дома,77 : 64,win,https://www.sports.ru/basketball/match/1759766/,19:00
+УНИКС,28.04.2024,Единая лига ВТБ,Самара,В гостях,67 : 90,win,https://www.sports.ru/basketball/match/samara-vs-unics/,16:00
+УНИКС,06.05.2024,Единая лига ВТБ,Локомотив-Кубань,Дома,78 : 75,win,https://www.sports.ru/basketball/match/1760866/,19:00
+УНИКС,08.05.2024,Единая лига ВТБ,Локомотив-Кубань,Дома,71 : 84,lose,https://www.sports.ru/basketball/match/1760894/,19:00
+УНИКС,11.05.2024,Единая лига ВТБ,Локомотив-Кубань,В гостях,89 : 83,lose,https://www.sports.ru/basketball/match/1760892/,14:00
+УНИКС,13.05.2024,Единая лига ВТБ,Локомотив-Кубань,В гостях,68 : 85,win,https://www.sports.ru/basketball/match/1760890/,19:30
+УНИКС,16.05.2024,Единая лига ВТБ,Локомотив-Кубань,Дома,81 : 78,win,https://www.sports.ru/basketball/match/1760888/,19:30
+УНИКС,19.05.2024,Единая лига ВТБ,Локомотив-Кубань,В гостях,превью,not played,https://www.sports.ru/basketball/match/lokomotiv-kuban-vs-unics/,16:30
+Зенит,02.10.2023,Единая лига ВТБ,Уралмаш,Дома,70 : 75,lose,https://www.sports.ru/basketball/match/1704972/,19:30
+Зенит,05.10.2023,Единая лига ВТБ,Самара,В гостях,76 : 84,win,https://www.sports.ru/basketball/match/1704970/,18:30
+Зенит,08.10.2023,Единая лига ВТБ,ЦСКА,Дома,76 : 80,lose,https://www.sports.ru/basketball/match/1704964/,16:00
+Зенит,14.10.2023,Единая лига ВТБ,Астана,В гостях,69 : 78,win,https://www.sports.ru/basketball/match/1704959/,12:00
+Зенит,17.10.2023,Единая лига ВТБ,МБА,Дома,85 : 74,win,https://www.sports.ru/basketball/match/1704952/,19:30
+Зенит,22.10.2023,Единая лига ВТБ,Локомотив-Кубань,В гостях,69 : 67,lose,https://www.sports.ru/basketball/match/1704938/,14:00
+Зенит,27.10.2023,Единая лига ВТБ,Енисей,Дома,80 : 77,win,https://www.sports.ru/basketball/match/1704925/,19:30
+Зенит,05.11.2023,Единая лига ВТБ,УНИКС,Дома,83 : 93,lose,https://www.sports.ru/basketball/match/1704896/,16:00
+Зенит,08.11.2023,Единая лига ВТБ,Парма,Дома,78 : 54,win,https://www.sports.ru/basketball/match/1704890/,19:30
+Зенит,13.11.2023,Единая лига ВТБ,Автодор,В гостях,64 : 89,win,https://www.sports.ru/basketball/match/1704868/,18:00
+Зенит,18.11.2023,Единая лига ВТБ,Минск,В гостях,62 : 84,win,https://www.sports.ru/basketball/match/1704857/,15:00
+Зенит,21.11.2023,Единая лига ВТБ,Пари Нижний Новгород,Дома,68 : 65,win,https://www.sports.ru/basketball/match/1704844/,20:00
+Зенит,27.11.2023,Единая лига ВТБ,Руна,В гостях,85 : 97,win,https://www.sports.ru/basketball/match/1704817/,20:00
+Зенит,30.11.2023,Единая лига ВТБ,Уралмаш,В гостях,59 : 61,win,https://www.sports.ru/basketball/match/1704812/,17:30
+Зенит,07.12.2023,Единая лига ВТБ,Самара,Дома,96 : 58,win,https://www.sports.ru/basketball/match/samara-vs-zenit/,19:30
+Зенит,10.12.2023,Единая лига ВТБ,ЦСКА,В гостях,104 : 89,lose,https://www.sports.ru/basketball/match/1704775/,13:30
+Зенит,17.12.2023,Единая лига ВТБ,МБА,В гостях,48 : 93,win,https://www.sports.ru/basketball/match/mba-vs-zenit/,17:00
+Зенит,21.12.2023,Единая лига ВТБ,Астана,Дома,95 : 79,win,https://www.sports.ru/basketball/match/astana-vs-zenit/,19:30
+Зенит,24.12.2023,Единая лига ВТБ,Локомотив-Кубань,Дома,73 : 93,lose,https://www.sports.ru/basketball/match/1704726/,14:00
+Зенит,05.01.2024,Единая лига ВТБ,Парма,В гостях,79 : 84,win,https://www.sports.ru/basketball/match/1704715/,15:00
+Зенит,11.01.2024,Единая лига ВТБ,Минск,Дома,96 : 69,win,https://www.sports.ru/basketball/match/cmoki-minsk-vs-zenit/,19:30
+Зенит,14.01.2024,Единая лига ВТБ,Автодор,Дома,86 : 85,win,https://www.sports.ru/basketball/match/avtodor-vs-zenit/,16:00
+Зенит,20.01.2024,Единая лига ВТБ,УНИКС,В гостях,64 : 61,lose,https://www.sports.ru/basketball/match/1704664/,15:00
+Зенит,25.01.2024,Единая лига ВТБ,Руна,Дома,93 : 62,win,https://www.sports.ru/basketball/match/runa-vs-zenit/,19:30
+Зенит,28.01.2024,Единая лига ВТБ,Пари Нижний Новгород,В гостях,68 : 64,lose,https://www.sports.ru/basketball/match/bk-nizhni-novgorod-vs-zenit/,14:00
+Зенит,04.02.2024,Единая лига ВТБ,Енисей,В гостях,91 : 83,lose,https://www.sports.ru/basketball/match/1704617/,13:00
+Зенит,11.02.2024,Единая лига ВТБ,Локомотив-Кубань,Дома,106 : 67,win,https://www.sports.ru/basketball/match/1741445/,13:00
+Зенит,01.03.2024,Единая лига ВТБ,ЦСКА,Дома,81 : 71,win,https://www.sports.ru/basketball/match/1742956/,19:30
+Зенит,06.03.2024,Единая лига ВТБ,Парма,В гостях,73 : 83,win,https://www.sports.ru/basketball/match/1742984/,18:00
+Зенит,10.03.2024,Единая лига ВТБ,Енисей,Дома,98 : 91,win,https://www.sports.ru/basketball/match/1742977/,16:00
+Зенит,21.03.2024,Единая лига ВТБ,УНИКС,В гостях,91 : 90,lose,https://www.sports.ru/basketball/match/1742964/,19:00
+Зенит,28.03.2024,Единая лига ВТБ,ЦСКА,В гостях,91 : 92,win,https://www.sports.ru/basketball/match/1742991/,20:00
+Зенит,31.03.2024,Единая лига ВТБ,Енисей,В гостях,79 : 98,win,https://www.sports.ru/basketball/match/enisey-vs-zenit/,14:00
+Зенит,05.04.2024,Единая лига ВТБ,УНИКС,Дома,91 : 87,win,https://www.sports.ru/basketball/match/unics-vs-zenit/,19:30
+Зенит,09.04.2024,Единая лига ВТБ,Локомотив-Кубань,В гостях,86 : 91,win,https://www.sports.ru/basketball/match/lokomotiv-kuban-vs-zenit/,20:00
+Зенит,14.04.2024,Единая лига ВТБ,Парма,Дома,77 : 66,win,https://www.sports.ru/basketball/match/parma-vs-zenit/,16:00
+Зенит,22.04.2024,Единая лига ВТБ,Уралмаш,Дома,98 : 82,win,https://www.sports.ru/basketball/match/1759772/,19:30
+Зенит,24.04.2024,Единая лига ВТБ,Уралмаш,Дома,82 : 74,win,https://www.sports.ru/basketball/match/1759768/,18:30
+Зенит,27.04.2024,Единая лига ВТБ,Уралмаш,В гостях,72 : 69,lose,https://www.sports.ru/basketball/match/1759764/,17:00
+Зенит,29.04.2024,Единая лига ВТБ,Уралмаш,В гостях,72 : 69,lose,https://www.sports.ru/basketball/match/1760091/,15:00
+Зенит,02.05.2024,Единая лига ВТБ,Уралмаш,Дома,86 : 83,win,https://www.sports.ru/basketball/match/uralmash-vs-zenit/,19:30
+Зенит,05.05.2024,Единая лига ВТБ,ЦСКА,Дома,67 : 82,lose,https://www.sports.ru/basketball/match/1760800/,19:00
+Зенит,07.05.2024,Единая лига ВТБ,ЦСКА,Дома,93 : 81,win,https://www.sports.ru/basketball/match/1760895/,19:15
+Зенит,10.05.2024,Единая лига ВТБ,ЦСКА,В гостях,75 : 61,lose,https://www.sports.ru/basketball/match/1760893/,14:00
+Зенит,12.05.2024,Единая лига ВТБ,ЦСКА,В гостях,73 : 91,win,https://www.sports.ru/basketball/match/1760891/,16:00
+Зенит,16.05.2024,Единая лига ВТБ,ЦСКА,Дома,73 : 99,lose,https://www.sports.ru/basketball/match/1760889/,19:30
+Зенит,19.05.2024,Единая лига ВТБ,ЦСКА,В гостях,превью,not played,https://www.sports.ru/basketball/match/bk-cska-vs-zenit/,16:30
+ЦСКА,30.09.2023,Единая лига ВТБ,МБА,Дома,76 : 72,win,https://www.sports.ru/basketball/match/1704976/,15:00
+ЦСКА,03.10.2023,Единая лига ВТБ,Енисей,Дома,73 : 64,win,https://www.sports.ru/basketball/match/1704971/,20:00
+ЦСКА,08.10.2023,Единая лига ВТБ,Зенит,В гостях,76 : 80,win,https://www.sports.ru/basketball/match/1704964/,16:00
+ЦСКА,15.10.2023,Единая лига ВТБ,Парма,Дома,77 : 76,win,https://www.sports.ru/basketball/match/1704955/,14:00
+ЦСКА,21.10.2023,Единая лига ВТБ,Автодор,В гостях,73 : 85,win,https://www.sports.ru/basketball/match/1704946/,16:00
+ЦСКА,25.10.2023,Единая лига ВТБ,Минск,Дома,112 : 84,win,https://www.sports.ru/basketball/match/1704928/,20:00
+ЦСКА,28.10.2023,Единая лига ВТБ,Астана,Дома,96 : 66,win,https://www.sports.ru/basketball/match/1704920/,14:00
+ЦСКА,03.11.2023,Единая лига ВТБ,Уралмаш,В гостях,73 : 86,win,https://www.sports.ru/basketball/match/1704907/,17:15
+ЦСКА,08.11.2023,Единая лига ВТБ,Самара,Дома,94 : 76,win,https://www.sports.ru/basketball/match/1704892/,20:00
+ЦСКА,12.11.2023,Единая лига ВТБ,Локомотив-Кубань,Дома,88 : 91,lose,https://www.sports.ru/basketball/match/1704872/,16:30
+ЦСКА,18.11.2023,Единая лига ВТБ,Руна,В гостях,74 : 80,win,https://www.sports.ru/basketball/match/1704855/,16:00
+ЦСКА,23.11.2023,Единая лига ВТБ,УНИКС,В гостях,66 : 79,win,https://www.sports.ru/basketball/match/1704832/,19:30
+ЦСКА,26.11.2023,Единая лига ВТБ,Пари Нижний Новгород,В гостях,72 : 74,win,https://www.sports.ru/basketball/match/1704825/,14:00
+ЦСКА,03.12.2023,Единая лига ВТБ,Астана,В гостях,78 : 112,win,https://www.sports.ru/basketball/match/astana-vs-bk-cska/,12:00
+ЦСКА,06.12.2023,Единая лига ВТБ,Енисей,В гостях,75 : 80,win,https://www.sports.ru/basketball/match/1704797/,15:00
+ЦСКА,10.12.2023,Единая лига ВТБ,Зенит,Дома,104 : 89,win,https://www.sports.ru/basketball/match/1704775/,13:30
+ЦСКА,16.12.2023,Единая лига ВТБ,Автодор,Дома,96 : 66,win,https://www.sports.ru/basketball/match/avtodor-vs-bk-cska/,14:00
+ЦСКА,20.12.2023,Единая лига ВТБ,Парма,В гостях,82 : 78,lose,https://www.sports.ru/basketball/match/1704748/,17:30
+ЦСКА,25.12.2023,Единая лига ВТБ,Минск,В гостях,83 : 97,win,https://www.sports.ru/basketball/match/bk-cska-vs-cmoki-minsk/,15:00
+ЦСКА,07.01.2024,Единая лига ВТБ,Самара,В гостях,82 : 92,win,https://www.sports.ru/basketball/match/bk-cska-vs-samara/,17:00
+ЦСКА,13.01.2024,Единая лига ВТБ,Локомотив-Кубань,В гостях,89 : 85,lose,https://www.sports.ru/basketball/match/1704684/,14:30
+ЦСКА,18.01.2024,Единая лига ВТБ,Руна,Дома,89 : 79,win,https://www.sports.ru/basketball/match/bk-cska-vs-runa/,20:00
+ЦСКА,21.01.2024,Единая лига ВТБ,Уралмаш,Дома,88 : 70,win,https://www.sports.ru/basketball/match/bk-cska-vs-uralmash/,14:00
+ЦСКА,24.01.2024,Единая лига ВТБ,Пари Нижний Новгород,Дома,104 : 96,win,https://www.sports.ru/basketball/match/bk-cska-vs-bk-nizhni-novgorod/,19:30
+ЦСКА,27.01.2024,Единая лига ВТБ,МБА,В гостях,52 : 88,win,https://www.sports.ru/basketball/match/bk-cska-vs-mba/,16:30
+ЦСКА,04.02.2024,Единая лига ВТБ,УНИКС,Дома,73 : 83,lose,https://www.sports.ru/basketball/match/1704614/,14:00
+ЦСКА,11.02.2024,Единая лига ВТБ,Парма,В гостях,84 : 80,lose,https://www.sports.ru/basketball/match/1741446/,15:30
+ЦСКА,01.03.2024,Единая лига ВТБ,Зенит,В гостях,81 : 71,lose,https://www.sports.ru/basketball/match/1742956/,19:30
+ЦСКА,05.03.2024,Единая лига ВТБ,УНИКС,Дома,78 : 84,lose,https://www.sports.ru/basketball/match/1742987/,20:00
+ЦСКА,10.03.2024,Единая лига ВТБ,Локомотив-Кубань,В гостях,82 : 96,win,https://www.sports.ru/basketball/match/1742978/,14:00
+ЦСКА,16.03.2024,Единая лига ВТБ,Парма,Дома,96 : 72,win,https://www.sports.ru/basketball/match/bk-cska-vs-parma/,15:00
+ЦСКА,20.03.2024,Единая лига ВТБ,Енисей,Дома,65 : 74,lose,https://www.sports.ru/basketball/match/1742967/,20:00
+ЦСКА,28.03.2024,Единая лига ВТБ,Зенит,Дома,91 : 92,lose,https://www.sports.ru/basketball/match/1742991/,20:00
+ЦСКА,01.04.2024,Единая лига ВТБ,Локомотив-Кубань,Дома,86 : 73,win,https://www.sports.ru/basketball/match/bk-cska-vs-lokomotiv-kuban/,19:30
+ЦСКА,07.04.2024,Единая лига ВТБ,Енисей,В гостях,86 : 81,lose,https://www.sports.ru/basketball/match/1742935/,13:00
+ЦСКА,13.04.2024,Единая лига ВТБ,УНИКС,В гостях,88 : 78,lose,https://www.sports.ru/basketball/match/bk-cska-vs-unics/,18:00
+ЦСКА,22.04.2024,Единая лига ВТБ,Енисей,Дома,96 : 68,win,https://www.sports.ru/basketball/match/1759771/,20:00
+ЦСКА,24.04.2024,Единая лига ВТБ,Енисей,Дома,88 : 85,win,https://www.sports.ru/basketball/match/1759767/,20:00
+ЦСКА,27.04.2024,Единая лига ВТБ,Енисей,В гостях,82 : 89,win,https://www.sports.ru/basketball/match/bk-cska-vs-enisey/,15:00
+ЦСКА,05.05.2024,Единая лига ВТБ,Зенит,В гостях,67 : 82,win,https://www.sports.ru/basketball/match/1760800/,19:00
+ЦСКА,07.05.2024,Единая лига ВТБ,Зенит,В гостях,93 : 81,lose,https://www.sports.ru/basketball/match/1760895/,19:15
+ЦСКА,10.05.2024,Единая лига ВТБ,Зенит,Дома,75 : 61,win,https://www.sports.ru/basketball/match/1760893/,14:00
+ЦСКА,12.05.2024,Единая лига ВТБ,Зенит,Дома,73 : 91,lose,https://www.sports.ru/basketball/match/1760891/,16:00
+ЦСКА,16.05.2024,Единая лига ВТБ,Зенит,В гостях,73 : 99,win,https://www.sports.ru/basketball/match/1760889/,19:30
+ЦСКА,19.05.2024,Единая лига ВТБ,Зенит,Дома,превью,not played,https://www.sports.ru/basketball/match/bk-cska-vs-zenit/,16:30
+Локомотив-Кубань,30.09.2023,Единая лига ВТБ,УНИКС,В гостях,91 : 73,lose,https://www.sports.ru/basketball/match/1704977/,14:00
+Локомотив-Кубань,05.10.2023,Единая лига ВТБ,Парма,Дома,85 : 87,lose,https://www.sports.ru/basketball/match/1704968/,20:00
+Локомотив-Кубань,09.10.2023,Единая лига ВТБ,МБА,Дома,79 : 71,win,https://www.sports.ru/basketball/match/1704963/,20:00
+Локомотив-Кубань,15.10.2023,Единая лига ВТБ,Уралмаш,В гостях,84 : 78,lose,https://www.sports.ru/basketball/match/1704956/,15:15
+Локомотив-Кубань,18.10.2023,Единая лига ВТБ,Енисей,В гостях,88 : 87,lose,https://www.sports.ru/basketball/match/1704951/,15:30
+Локомотив-Кубань,22.10.2023,Единая лига ВТБ,Зенит,Дома,69 : 67,win,https://www.sports.ru/basketball/match/1704938/,14:00
+Локомотив-Кубань,28.10.2023,Единая лига ВТБ,Самара,В гостях,83 : 90,win,https://www.sports.ru/basketball/match/1704923/,17:00
+Локомотив-Кубань,04.11.2023,Единая лига ВТБ,Пари Нижний Новгород,Дома,89 : 64,win,https://www.sports.ru/basketball/match/1704901/,15:00
+Локомотив-Кубань,09.11.2023,Единая лига ВТБ,Астана,В гостях,78 : 68,lose,https://www.sports.ru/basketball/match/1704885/,17:00
+Локомотив-Кубань,12.11.2023,Единая лига ВТБ,ЦСКА,В гостях,88 : 91,win,https://www.sports.ru/basketball/match/1704872/,16:30
+Локомотив-Кубань,19.11.2023,Единая лига ВТБ,Автодор,Дома,85 : 63,win,https://www.sports.ru/basketball/match/1704848/,14:00
+Локомотив-Кубань,22.11.2023,Единая лига ВТБ,Руна,Дома,96 : 76,win,https://www.sports.ru/basketball/match/1704835/,20:00
+Локомотив-Кубань,26.11.2023,Единая лига ВТБ,Минск,В гостях,86 : 90,win,https://www.sports.ru/basketball/match/1704828/,15:00
+Локомотив-Кубань,02.12.2023,Единая лига ВТБ,УНИКС,Дома,82 : 75,win,https://www.sports.ru/basketball/match/1704806/,14:00
+Локомотив-Кубань,06.12.2023,Единая лига ВТБ,Парма,В гостях,73 : 67,lose,https://www.sports.ru/basketball/match/1704795/,17:00
+Локомотив-Кубань,09.12.2023,Единая лига ВТБ,МБА,В гостях,66 : 80,win,https://www.sports.ru/basketball/match/lokomotiv-kuban-vs-mba/,19:30
+Локомотив-Кубань,14.12.2023,Единая лига ВТБ,Енисей,Дома,90 : 83,win,https://www.sports.ru/basketball/match/1704766/,20:00
+Локомотив-Кубань,21.12.2023,Единая лига ВТБ,Уралмаш,Дома,98 : 73,win,https://www.sports.ru/basketball/match/lokomotiv-kuban-vs-uralmash/,20:00
+Локомотив-Кубань,24.12.2023,Единая лига ВТБ,Зенит,В гостях,73 : 93,win,https://www.sports.ru/basketball/match/1704726/,14:00
+Локомотив-Кубань,05.01.2024,Единая лига ВТБ,Астана,Дома,93 : 83,win,https://www.sports.ru/basketball/match/astana-vs-lokomotiv-kuban/,14:00
+Локомотив-Кубань,09.01.2024,Единая лига ВТБ,Автодор,В гостях,88 : 98,win,https://www.sports.ru/basketball/match/avtodor-vs-lokomotiv-kuban/,18:00
+Локомотив-Кубань,13.01.2024,Единая лига ВТБ,ЦСКА,Дома,89 : 85,win,https://www.sports.ru/basketball/match/1704684/,14:30
+Локомотив-Кубань,19.01.2024,Единая лига ВТБ,Пари Нижний Новгород,В гостях,76 : 74,lose,https://www.sports.ru/basketball/match/bk-nizhni-novgorod-vs-lokomotiv-kuban/,19:00
+Локомотив-Кубань,24.01.2024,Единая лига ВТБ,Минск,Дома,95 : 59,win,https://www.sports.ru/basketball/match/cmoki-minsk-vs-lokomotiv-kuban/,20:00
+Локомотив-Кубань,28.01.2024,Единая лига ВТБ,Самара,Дома,91 : 76,win,https://www.sports.ru/basketball/match/lokomotiv-kuban-vs-samara/,15:00
+Локомотив-Кубань,03.02.2024,Единая лига ВТБ,Руна,В гостях,74 : 80,win,https://www.sports.ru/basketball/match/lokomotiv-kuban-vs-runa/,17:00
+Локомотив-Кубань,11.02.2024,Единая лига ВТБ,Зенит,В гостях,106 : 67,lose,https://www.sports.ru/basketball/match/1741445/,13:00
+Локомотив-Кубань,02.03.2024,Единая лига ВТБ,УНИКС,В гостях,80 : 76,lose,https://www.sports.ru/basketball/match/1742992/,14:00
+Локомотив-Кубань,05.03.2024,Единая лига ВТБ,Енисей,В гостях,87 : 101,win,https://www.sports.ru/basketball/match/1742986/,15:30
+Локомотив-Кубань,10.03.2024,Единая лига ВТБ,ЦСКА,Дома,82 : 96,lose,https://www.sports.ru/basketball/match/1742978/,14:00
+Локомотив-Кубань,20.03.2024,Единая лига ВТБ,Парма,Дома,89 : 85,win,https://www.sports.ru/basketball/match/1742963/,19:30
+Локомотив-Кубань,26.03.2024,Единая лига ВТБ,УНИКС,Дома,90 : 82,win,https://www.sports.ru/basketball/match/1742954/,20:00
+Локомотив-Кубань,01.04.2024,Единая лига ВТБ,ЦСКА,В гостях,86 : 73,lose,https://www.sports.ru/basketball/match/bk-cska-vs-lokomotiv-kuban/,19:30
+Локомотив-Кубань,04.04.2024,Единая лига ВТБ,Парма,В гостях,75 : 80,win,https://www.sports.ru/basketball/match/1742937/,17:30
+Локомотив-Кубань,09.04.2024,Единая лига ВТБ,Зенит,Дома,86 : 91,lose,https://www.sports.ru/basketball/match/lokomotiv-kuban-vs-zenit/,20:00
+Локомотив-Кубань,13.04.2024,Единая лига ВТБ,Енисей,Дома,76 : 83,lose,https://www.sports.ru/basketball/match/enisey-vs-lokomotiv-kuban/,15:00
+Локомотив-Кубань,23.04.2024,Единая лига ВТБ,Парма,Дома,112 : 85,win,https://www.sports.ru/basketball/match/1759769/,20:00
+Локомотив-Кубань,25.04.2024,Единая лига ВТБ,Парма,Дома,97 : 60,win,https://www.sports.ru/basketball/match/1759765/,20:00
+Локомотив-Кубань,28.04.2024,Единая лига ВТБ,Парма,В гостях,54 : 82,win,https://www.sports.ru/basketball/match/lokomotiv-kuban-vs-parma/,14:00
+Локомотив-Кубань,06.05.2024,Единая лига ВТБ,УНИКС,В гостях,78 : 75,lose,https://www.sports.ru/basketball/match/1760866/,19:00
+Локомотив-Кубань,08.05.2024,Единая лига ВТБ,УНИКС,В гостях,71 : 84,win,https://www.sports.ru/basketball/match/1760894/,19:00
+Локомотив-Кубань,11.05.2024,Единая лига ВТБ,УНИКС,Дома,89 : 83,win,https://www.sports.ru/basketball/match/1760892/,14:00
+Локомотив-Кубань,13.05.2024,Единая лига ВТБ,УНИКС,Дома,68 : 85,lose,https://www.sports.ru/basketball/match/1760890/,19:30
+Локомотив-Кубань,16.05.2024,Единая лига ВТБ,УНИКС,В гостях,81 : 78,lose,https://www.sports.ru/basketball/match/1760888/,19:30
+Локомотив-Кубань,19.05.2024,Единая лига ВТБ,УНИКС,Дома,превью,not played,https://www.sports.ru/basketball/match/lokomotiv-kuban-vs-unics/,16:30
+Парма,05.10.2023,Единая лига ВТБ,Локомотив-Кубань,В гостях,85 : 87,win,https://www.sports.ru/basketball/match/1704968/,20:00
+Парма,09.10.2023,Единая лига ВТБ,Пари Нижний Новгород,Дома,61 : 67,lose,https://www.sports.ru/basketball/match/1704961/,17:30
+Парма,15.10.2023,Единая лига ВТБ,ЦСКА,В гостях,77 : 76,lose,https://www.sports.ru/basketball/match/1704955/,14:00
+Парма,18.10.2023,Единая лига ВТБ,Руна,В гостях,70 : 64,lose,https://www.sports.ru/basketball/match/1704950/,20:00
+Парма,22.10.2023,Единая лига ВТБ,Минск,Дома,78 : 73,win,https://www.sports.ru/basketball/match/1704942/,15:00
+Парма,25.10.2023,Единая лига ВТБ,Уралмаш,Дома,74 : 78,lose,https://www.sports.ru/basketball/match/1704930/,17:30
+Парма,01.11.2023,Единая лига ВТБ,МБА,В гостях,79 : 83,win,https://www.sports.ru/basketball/match/1704914/,19:30
+Парма,04.11.2023,Единая лига ВТБ,Енисей,В гостях,92 : 84,lose,https://www.sports.ru/basketball/match/1704905/,13:00
+Парма,08.11.2023,Единая лига ВТБ,Зенит,В гостях,78 : 54,lose,https://www.sports.ru/basketball/match/1704890/,19:30
+Парма,12.11.2023,Единая лига ВТБ,УНИКС,Дома,77 : 87,lose,https://www.sports.ru/basketball/match/1704876/,14:30
+Парма,19.11.2023,Единая лига ВТБ,Астана,Дома,82 : 64,win,https://www.sports.ru/basketball/match/1704850/,16:00
+Парма,22.11.2023,Единая лига ВТБ,Самара,В гостях,85 : 83,lose,https://www.sports.ru/basketball/match/1704839/,18:00
+Парма,26.11.2023,Единая лига ВТБ,Автодор,В гостях,89 : 93,win,https://www.sports.ru/basketball/match/1704830/,16:00
+Парма,03.12.2023,Единая лига ВТБ,МБА,Дома,77 : 56,win,https://www.sports.ru/basketball/match/mba-vs-parma/,14:00
+Парма,06.12.2023,Единая лига ВТБ,Локомотив-Кубань,Дома,73 : 67,win,https://www.sports.ru/basketball/match/1704795/,17:00
+Парма,10.12.2023,Единая лига ВТБ,Пари Нижний Новгород,В гостях,72 : 74,win,https://www.sports.ru/basketball/match/bk-nizhni-novgorod-vs-parma/,15:30
+Парма,16.12.2023,Единая лига ВТБ,Руна,Дома,85 : 74,win,https://www.sports.ru/basketball/match/parma-vs-runa/,16:00
+Парма,20.12.2023,Единая лига ВТБ,ЦСКА,Дома,82 : 78,win,https://www.sports.ru/basketball/match/1704748/,17:30
+Парма,25.12.2023,Единая лига ВТБ,Уралмаш,В гостях,81 : 75,lose,https://www.sports.ru/basketball/match/parma-vs-uralmash/,17:15
+Парма,05.01.2024,Единая лига ВТБ,Зенит,Дома,79 : 84,lose,https://www.sports.ru/basketball/match/1704715/,15:00
+Парма,10.01.2024,Единая лига ВТБ,Астана,В гостях,76 : 86,win,https://www.sports.ru/basketball/match/astana-vs-parma/,17:00
+Парма,13.01.2024,Единая лига ВТБ,УНИКС,В гостях,70 : 72,win,https://www.sports.ru/basketball/match/1704686/,18:00
+Парма,20.01.2024,Единая лига ВТБ,Енисей,Дома,87 : 81,win,https://www.sports.ru/basketball/match/1704662/,13:00
+Парма,24.01.2024,Единая лига ВТБ,Автодор,Дома,84 : 67,win,https://www.sports.ru/basketball/match/avtodor-vs-parma/,17:30
+Парма,29.01.2024,Единая лига ВТБ,Минск,В гостях,59 : 88,win,https://www.sports.ru/basketball/match/cmoki-minsk-vs-parma/,19:00
+Парма,04.02.2024,Единая лига ВТБ,Самара,Дома,68 : 77,lose,https://www.sports.ru/basketball/match/parma-vs-samara/,16:00
+Парма,11.02.2024,Единая лига ВТБ,ЦСКА,Дома,84 : 80,win,https://www.sports.ru/basketball/match/1741446/,15:30
+Парма,02.03.2024,Единая лига ВТБ,Енисей,В гостях,82 : 101,win,https://www.sports.ru/basketball/match/1742990/,12:00
+Парма,06.03.2024,Единая лига ВТБ,Зенит,Дома,73 : 83,lose,https://www.sports.ru/basketball/match/1742984/,18:00
+Парма,09.03.2024,Единая лига ВТБ,УНИКС,Дома,82 : 80,win,https://www.sports.ru/basketball/match/1742980/,16:00
+Парма,16.03.2024,Единая лига ВТБ,ЦСКА,В гостях,96 : 72,lose,https://www.sports.ru/basketball/match/bk-cska-vs-parma/,15:00
+Парма,20.03.2024,Единая лига ВТБ,Локомотив-Кубань,В гостях,89 : 85,lose,https://www.sports.ru/basketball/match/1742963/,19:30
+Парма,30.03.2024,Единая лига ВТБ,УНИКС,В гостях,86 : 89,win,https://www.sports.ru/basketball/match/parma-vs-unics/,18:00
+Парма,04.04.2024,Единая лига ВТБ,Локомотив-Кубань,Дома,75 : 80,lose,https://www.sports.ru/basketball/match/1742937/,17:30
+Парма,10.04.2024,Единая лига ВТБ,Енисей,Дома,106 : 94,win,https://www.sports.ru/basketball/match/enisey-vs-parma/,17:30
+Парма,14.04.2024,Единая лига ВТБ,Зенит,В гостях,77 : 66,lose,https://www.sports.ru/basketball/match/parma-vs-zenit/,16:00
+Парма,23.04.2024,Единая лига ВТБ,Локомотив-Кубань,В гостях,112 : 85,lose,https://www.sports.ru/basketball/match/1759769/,20:00
+Парма,25.04.2024,Единая лига ВТБ,Локомотив-Кубань,В гостях,97 : 60,lose,https://www.sports.ru/basketball/match/1759765/,20:00
+Енисей,30.09.2023,Единая лига ВТБ,Самара,В гостях,83 : 63,lose,https://www.sports.ru/basketball/match/1704975/,17:00
+Енисей,03.10.2023,Единая лига ВТБ,ЦСКА,В гостях,73 : 64,lose,https://www.sports.ru/basketball/match/1704971/,20:00
+Енисей,08.10.2023,Единая лига ВТБ,Минск,Дома,73 : 64,win,https://www.sports.ru/basketball/match/1704965/,12:30
+Енисей,14.10.2023,Единая лига ВТБ,Автодор,В гостях,88 : 89,win,https://www.sports.ru/basketball/match/1704957/,16:00
+Енисей,18.10.2023,Единая лига ВТБ,Локомотив-Кубань,Дома,88 : 87,win,https://www.sports.ru/basketball/match/1704951/,15:30
+Енисей,22.10.2023,Единая лига ВТБ,Пари Нижний Новгород,Дома,88 : 83,win,https://www.sports.ru/basketball/match/1704945/,13:00
+Енисей,27.10.2023,Единая лига ВТБ,Зенит,В гостях,80 : 77,lose,https://www.sports.ru/basketball/match/1704925/,19:30
+Енисей,04.11.2023,Единая лига ВТБ,Парма,Дома,92 : 84,win,https://www.sports.ru/basketball/match/1704905/,13:00
+Енисей,09.11.2023,Единая лига ВТБ,МБА,В гостях,80 : 85,win,https://www.sports.ru/basketball/match/1704881/,19:30
+Енисей,13.11.2023,Единая лига ВТБ,Руна,В гостях,77 : 92,win,https://www.sports.ru/basketball/match/1704866/,20:00
+Енисей,18.11.2023,Единая лига ВТБ,УНИКС,В гостях,91 : 80,lose,https://www.sports.ru/basketball/match/1704852/,18:00
+Енисей,22.11.2023,Единая лига ВТБ,Астана,Дома,96 : 92,win,https://www.sports.ru/basketball/match/1704841/,15:30
+Енисей,27.11.2023,Единая лига ВТБ,Уралмаш,В гостях,76 : 73,lose,https://www.sports.ru/basketball/match/1704819/,17:30
+Енисей,02.12.2023,Единая лига ВТБ,Самара,Дома,103 : 82,win,https://www.sports.ru/basketball/match/enisey-vs-samara/,12:00
+Енисей,06.12.2023,Единая лига ВТБ,ЦСКА,Дома,75 : 80,lose,https://www.sports.ru/basketball/match/1704797/,15:00
+Енисей,11.12.2023,Единая лига ВТБ,Минск,В гостях,74 : 89,win,https://www.sports.ru/basketball/match/cmoki-minsk-vs-enisey/,19:00
+Енисей,14.12.2023,Единая лига ВТБ,Локомотив-Кубань,В гостях,90 : 83,lose,https://www.sports.ru/basketball/match/1704766/,20:00
+Енисей,19.12.2023,Единая лига ВТБ,Автодор,Дома,65 : 72,lose,https://www.sports.ru/basketball/match/avtodor-vs-enisey/,15:30
+Енисей,24.12.2023,Единая лига ВТБ,Пари Нижний Новгород,В гостях,61 : 82,win,https://www.sports.ru/basketball/match/bk-nizhni-novgorod-vs-enisey/,15:00
+Енисей,05.01.2024,Единая лига ВТБ,МБА,Дома,91 : 93,lose,https://www.sports.ru/basketball/match/enisey-vs-mba/,13:00
+Енисей,08.01.2024,Единая лига ВТБ,УНИКС,Дома,94 : 80,win,https://www.sports.ru/basketball/match/1704702/,13:00
+Енисей,13.01.2024,Единая лига ВТБ,Руна,Дома,89 : 82,win,https://www.sports.ru/basketball/match/enisey-vs-runa/,11:00
+Енисей,20.01.2024,Единая лига ВТБ,Парма,В гостях,87 : 81,lose,https://www.sports.ru/basketball/match/1704662/,13:00
+Енисей,27.01.2024,Единая лига ВТБ,Уралмаш,Дома,88 : 76,win,https://www.sports.ru/basketball/match/enisey-vs-uralmash/,13:00
+Енисей,01.02.2024,Единая лига ВТБ,Астана,В гостях,69 : 97,win,https://www.sports.ru/basketball/match/astana-vs-enisey/,14:00
+Енисей,04.02.2024,Единая лига ВТБ,Зенит,Дома,91 : 83,win,https://www.sports.ru/basketball/match/1704617/,13:00
+Енисей,10.02.2024,Единая лига ВТБ,УНИКС,В гостях,107 : 84,lose,https://www.sports.ru/basketball/match/1741447/,17:00
+Енисей,02.03.2024,Единая лига ВТБ,Парма,Дома,82 : 101,lose,https://www.sports.ru/basketball/match/1742990/,12:00
+Енисей,05.03.2024,Единая лига ВТБ,Локомотив-Кубань,Дома,87 : 101,lose,https://www.sports.ru/basketball/match/1742986/,15:30
+Енисей,10.03.2024,Единая лига ВТБ,Зенит,В гостях,98 : 91,lose,https://www.sports.ru/basketball/match/1742977/,16:00
+Енисей,16.03.2024,Единая лига ВТБ,УНИКС,Дома,69 : 93,lose,https://www.sports.ru/basketball/match/enisey-vs-unics/,13:00
+Енисей,20.03.2024,Единая лига ВТБ,ЦСКА,В гостях,65 : 74,win,https://www.sports.ru/basketball/match/1742967/,20:00
+Енисей,31.03.2024,Единая лига ВТБ,Зенит,Дома,79 : 98,lose,https://www.sports.ru/basketball/match/enisey-vs-zenit/,14:00
+Енисей,07.04.2024,Единая лига ВТБ,ЦСКА,Дома,86 : 81,win,https://www.sports.ru/basketball/match/1742935/,13:00
+Енисей,10.04.2024,Единая лига ВТБ,Парма,В гостях,106 : 94,lose,https://www.sports.ru/basketball/match/enisey-vs-parma/,17:30
+Енисей,13.04.2024,Единая лига ВТБ,Локомотив-Кубань,В гостях,76 : 83,win,https://www.sports.ru/basketball/match/enisey-vs-lokomotiv-kuban/,15:00
+Енисей,22.04.2024,Единая лига ВТБ,ЦСКА,В гостях,96 : 68,lose,https://www.sports.ru/basketball/match/1759771/,20:00
+Енисей,24.04.2024,Единая лига ВТБ,ЦСКА,В гостях,88 : 85,lose,https://www.sports.ru/basketball/match/1759767/,20:00
+Уралмаш,02.10.2023,Единая лига ВТБ,Зенит,В гостях,70 : 75,win,https://www.sports.ru/basketball/match/1704972/,19:30
+Уралмаш,06.10.2023,Единая лига ВТБ,Руна,Дома,78 : 85,lose,https://www.sports.ru/basketball/match/1704966/,17:15
+Уралмаш,09.10.2023,Единая лига ВТБ,Автодор,Дома,77 : 87,lose,https://www.sports.ru/basketball/match/1704962/,17:00
+Уралмаш,15.10.2023,Единая лига ВТБ,Локомотив-Кубань,Дома,84 : 78,win,https://www.sports.ru/basketball/match/1704956/,15:15
+Уралмаш,19.10.2023,Единая лига ВТБ,УНИКС,В гостях,94 : 67,lose,https://www.sports.ru/basketball/match/1704948/,19:00
+Уралмаш,25.10.2023,Единая лига ВТБ,Парма,В гостях,74 : 78,win,https://www.sports.ru/basketball/match/1704930/,17:30
+Уралмаш,29.10.2023,Единая лига ВТБ,Пари Нижний Новгород,В гостях,77 : 91,win,https://www.sports.ru/basketball/match/1704916/,14:00
+Уралмаш,03.11.2023,Единая лига ВТБ,ЦСКА,Дома,73 : 86,lose,https://www.sports.ru/basketball/match/1704907/,17:15
+Уралмаш,07.11.2023,Единая лига ВТБ,Минск,В гостях,73 : 101,win,https://www.sports.ru/basketball/match/1704894/,19:00
+Уралмаш,12.11.2023,Единая лига ВТБ,Астана,В гостях,80 : 72,lose,https://www.sports.ru/basketball/match/1704879/,12:00
+Уралмаш,17.11.2023,Единая лига ВТБ,Самара,Дома,78 : 86,lose,https://www.sports.ru/basketball/match/1704861/,17:00
+Уралмаш,21.11.2023,Единая лига ВТБ,МБА,В гостях,87 : 90,win,https://www.sports.ru/basketball/match/1704846/,19:30
+Уралмаш,27.11.2023,Единая лига ВТБ,Енисей,Дома,76 : 73,win,https://www.sports.ru/basketball/match/1704819/,17:30
+Уралмаш,30.11.2023,Единая лига ВТБ,Зенит,Дома,59 : 61,lose,https://www.sports.ru/basketball/match/1704812/,17:30
+Уралмаш,07.12.2023,Единая лига ВТБ,Руна,В гостях,86 : 82,lose,https://www.sports.ru/basketball/match/1704788/,20:00
+Уралмаш,10.12.2023,Единая лига ВТБ,Автодор,В гостях,87 : 98,win,https://www.sports.ru/basketball/match/1704780/,16:00
+Уралмаш,18.12.2023,Единая лига ВТБ,УНИКС,Дома,80 : 89,lose,https://www.sports.ru/basketball/match/unics-vs-uralmash/,17:15
+Уралмаш,21.12.2023,Единая лига ВТБ,Локомотив-Кубань,В гостях,98 : 73,lose,https://www.sports.ru/basketball/match/lokomotiv-kuban-vs-uralmash/,20:00
+Уралмаш,25.12.2023,Единая лига ВТБ,Парма,Дома,81 : 75,win,https://www.sports.ru/basketball/match/parma-vs-uralmash/,17:15
+Уралмаш,07.01.2024,Единая лига ВТБ,Минск,Дома,104 : 72,win,https://www.sports.ru/basketball/match/1704706/,15:00
+Уралмаш,10.01.2024,Единая лига ВТБ,Самара,В гостях,68 : 64,lose,https://www.sports.ru/basketball/match/1704695/,19:00
+Уралмаш,14.01.2024,Единая лига ВТБ,Астана,Дома,74 : 71,win,https://www.sports.ru/basketball/match/1704681/,13:00
+Уралмаш,21.01.2024,Единая лига ВТБ,ЦСКА,В гостях,88 : 70,lose,https://www.sports.ru/basketball/match/bk-cska-vs-uralmash/,14:00
+Уралмаш,27.01.2024,Единая лига ВТБ,Енисей,В гостях,88 : 76,lose,https://www.sports.ru/basketball/match/enisey-vs-uralmash/,13:00
+Уралмаш,01.02.2024,Единая лига ВТБ,Пари Нижний Новгород,Дома,84 : 67,win,https://www.sports.ru/basketball/match/1704622/,17:30
+Уралмаш,04.02.2024,Единая лига ВТБ,МБА,Дома,96 : 83,win,https://www.sports.ru/basketball/match/1704616/,15:00
+Уралмаш,10.02.2024,Единая лига ВТБ,МБА,В гостях,78 : 81,win,https://www.sports.ru/basketball/match/1741448/,15:00
+Уралмаш,13.02.2024,Единая лига ВТБ,Минск,В гостях,77 : 89,win,https://www.sports.ru/basketball/match/1741441/,17:30
+Уралмаш,29.02.2024,Единая лига ВТБ,Пари Нижний Новгород,Дома,83 : 78,win,https://www.sports.ru/basketball/match/1742994/,17:00
+Уралмаш,03.03.2024,Единая лига ВТБ,Руна,В гостях,74 : 102,win,https://www.sports.ru/basketball/match/1742976/,17:00
+Уралмаш,06.03.2024,Единая лига ВТБ,Самара,Дома,89 : 83,win,https://www.sports.ru/basketball/match/1742985/,17:30
+Уралмаш,12.03.2024,Единая лига ВТБ,МБА,Дома,77 : 79,lose,https://www.sports.ru/basketball/match/mba-vs-uralmash/,17:15
+Уралмаш,21.03.2024,Единая лига ВТБ,Астана,В гостях,61 : 96,win,https://www.sports.ru/basketball/match/1742961/,18:00
+Уралмаш,25.03.2024,Единая лига ВТБ,Автодор,Дома,82 : 66,win,https://www.sports.ru/basketball/match/1742955/,17:15
+Уралмаш,28.03.2024,Единая лига ВТБ,Самара,В гостях,77 : 83,win,https://www.sports.ru/basketball/match/1742951/,18:00
+Уралмаш,31.03.2024,Единая лига ВТБ,Минск,Дома,85 : 79,win,https://www.sports.ru/basketball/match/cmoki-minsk-vs-uralmash/,16:00
+Уралмаш,03.04.2024,Единая лига ВТБ,Пари Нижний Новгород,В гостях,64 : 82,win,https://www.sports.ru/basketball/match/bk-nizhni-novgorod-vs-uralmash/,19:30
+Уралмаш,07.04.2024,Единая лига ВТБ,Астана,Дома,87 : 79,win,https://www.sports.ru/basketball/match/astana-vs-uralmash/,15:00
+Уралмаш,10.04.2024,Единая лига ВТБ,Автодор,В гостях,85 : 86,win,https://www.sports.ru/basketball/match/avtodor-vs-uralmash/,18:00
+Уралмаш,13.04.2024,Единая лига ВТБ,Руна,Дома,80 : 71,win,https://www.sports.ru/basketball/match/runa-vs-uralmash/,14:00
+Уралмаш,17.04.2024,Единая лига ВТБ,Самара,Дома,80 : 69,win,https://www.sports.ru/basketball/match/samara-vs-uralmash/,17:00
+Уралмаш,22.04.2024,Единая лига ВТБ,Зенит,В гостях,98 : 82,lose,https://www.sports.ru/basketball/match/1759772/,19:30
+Уралмаш,24.04.2024,Единая лига ВТБ,Зенит,В гостях,82 : 74,lose,https://www.sports.ru/basketball/match/1759768/,18:30
+Уралмаш,27.04.2024,Единая лига ВТБ,Зенит,Дома,72 : 69,win,https://www.sports.ru/basketball/match/1759764/,17:00
+Уралмаш,29.04.2024,Единая лига ВТБ,Зенит,Дома,72 : 69,win,https://www.sports.ru/basketball/match/1760091/,15:00
+Самара,30.09.2023,Единая лига ВТБ,Енисей,Дома,83 : 63,win,https://www.sports.ru/basketball/match/1704975/,17:00
+Самара,05.10.2023,Единая лига ВТБ,Зенит,Дома,76 : 84,lose,https://www.sports.ru/basketball/match/1704970/,18:30
+Самара,09.10.2023,Единая лига ВТБ,Руна,В гостях,85 : 74,lose,https://www.sports.ru/basketball/match/1704960/,19:30
+Самара,14.10.2023,Единая лига ВТБ,МБА,В гостях,65 : 77,win,https://www.sports.ru/basketball/match/1704958/,19:30
+Самара,19.10.2023,Единая лига ВТБ,Минск,В гостях,78 : 91,win,https://www.sports.ru/basketball/match/1704949/,19:00
+Самара,22.10.2023,Единая лига ВТБ,УНИКС,Дома,104 : 93,win,https://www.sports.ru/basketball/match/1704939/,17:00
+Самара,28.10.2023,Единая лига ВТБ,Локомотив-Кубань,Дома,83 : 90,lose,https://www.sports.ru/basketball/match/1704923/,17:00
+Самара,04.11.2023,Единая лига ВТБ,Автодор,Дома,74 : 86,lose,https://www.sports.ru/basketball/match/1704903/,16:00
+Самара,08.11.2023,Единая лига ВТБ,ЦСКА,В гостях,94 : 76,lose,https://www.sports.ru/basketball/match/1704892/,20:00
+Самара,13.11.2023,Единая лига ВТБ,Пари Нижний Новгород,Дома,85 : 79,win,https://www.sports.ru/basketball/match/1704870/,18:30
+Самара,17.11.2023,Единая лига ВТБ,Уралмаш,В гостях,78 : 86,win,https://www.sports.ru/basketball/match/1704861/,17:00
+Самара,22.11.2023,Единая лига ВТБ,Парма,Дома,85 : 83,win,https://www.sports.ru/basketball/match/1704839/,18:00
+Самара,27.11.2023,Единая лига ВТБ,Астана,В гостях,83 : 66,lose,https://www.sports.ru/basketball/match/1704821/,17:00
+Самара,02.12.2023,Единая лига ВТБ,Енисей,В гостях,103 : 82,lose,https://www.sports.ru/basketball/match/enisey-vs-samara/,12:00
+Самара,07.12.2023,Единая лига ВТБ,Зенит,В гостях,96 : 58,lose,https://www.sports.ru/basketball/match/samara-vs-zenit/,19:30
+Самара,11.12.2023,Единая лига ВТБ,Руна,Дома,93 : 78,win,https://www.sports.ru/basketball/match/1704771/,18:30
+Самара,16.12.2023,Единая лига ВТБ,Минск,Дома,79 : 68,win,https://www.sports.ru/basketball/match/1704760/,15:00
+Самара,20.12.2023,Единая лига ВТБ,МБА,Дома,76 : 65,win,https://www.sports.ru/basketball/match/1704744/,18:30
+Самара,24.12.2023,Единая лига ВТБ,УНИКС,В гостях,81 : 61,lose,https://www.sports.ru/basketball/match/1704730/,18:00
+Самара,07.01.2024,Единая лига ВТБ,ЦСКА,Дома,82 : 92,lose,https://www.sports.ru/basketball/match/bk-cska-vs-samara/,17:00
+Самара,10.01.2024,Единая лига ВТБ,Уралмаш,Дома,68 : 64,win,https://www.sports.ru/basketball/match/1704695/,19:00
+Самара,14.01.2024,Единая лига ВТБ,Пари Нижний Новгород,В гостях,73 : 79,win,https://www.sports.ru/basketball/match/1704676/,14:00
+Самара,20.01.2024,Единая лига ВТБ,Автодор,В гостях,64 : 79,win,https://www.sports.ru/basketball/match/1704666/,16:00
+Самара,24.01.2024,Единая лига ВТБ,Астана,Дома,66 : 78,lose,https://www.sports.ru/basketball/match/1704652/,18:30
+Самара,28.01.2024,Единая лига ВТБ,Локомотив-Кубань,В гостях,91 : 76,lose,https://www.sports.ru/basketball/match/lokomotiv-kuban-vs-samara/,15:00
+Самара,04.02.2024,Единая лига ВТБ,Парма,В гостях,68 : 77,win,https://www.sports.ru/basketball/match/parma-vs-samara/,16:00
+Самара,10.02.2024,Единая лига ВТБ,Минск,Дома,79 : 71,win,https://www.sports.ru/basketball/match/1741444/,16:00
+Самара,13.02.2024,Единая лига ВТБ,Руна,Дома,85 : 98,lose,https://www.sports.ru/basketball/match/1741442/,18:30
+Самара,01.03.2024,Единая лига ВТБ,МБА,В гостях,69 : 79,win,https://www.sports.ru/basketball/match/1742993/,20:00
+Самара,06.03.2024,Единая лига ВТБ,Уралмаш,В гостях,89 : 83,lose,https://www.sports.ru/basketball/match/1742985/,17:30
+Самара,13.03.2024,Единая лига ВТБ,Астана,Дома,84 : 63,win,https://www.sports.ru/basketball/match/1742973/,18:30
+Самара,17.03.2024,Единая лига ВТБ,Минск,В гостях,86 : 96,win,https://www.sports.ru/basketball/match/cmoki-minsk-vs-samara/,15:00
+Самара,21.03.2024,Единая лига ВТБ,Автодор,В гостях,66 : 70,win,https://www.sports.ru/basketball/match/1742962/,18:00
+Самара,25.03.2024,Единая лига ВТБ,Пари Нижний Новгород,Дома,70 : 80,lose,https://www.sports.ru/basketball/match/1742957/,18:00
+Самара,28.03.2024,Единая лига ВТБ,Уралмаш,Дома,77 : 83,lose,https://www.sports.ru/basketball/match/1742951/,18:00
+Самара,01.04.2024,Единая лига ВТБ,Руна,В гостях,67 : 81,win,https://www.sports.ru/basketball/match/runa-vs-samara/,20:00
+Самара,04.04.2024,Единая лига ВТБ,МБА,Дома,69 : 73,lose,https://www.sports.ru/basketball/match/1742940/,18:30
+Самара,07.04.2024,Единая лига ВТБ,Автодор,Дома,86 : 71,win,https://www.sports.ru/basketball/match/avtodor-vs-samara/,16:00
+Самара,10.04.2024,Единая лига ВТБ,Пари Нижний Новгород,В гостях,56 : 80,win,https://www.sports.ru/basketball/match/bk-nizhni-novgorod-vs-samara/,19:00
+Самара,14.04.2024,Единая лига ВТБ,Астана,В гостях,94 : 92,lose,https://www.sports.ru/basketball/match/astana-vs-samara/,13:00
+Самара,17.04.2024,Единая лига ВТБ,Уралмаш,В гостях,80 : 69,lose,https://www.sports.ru/basketball/match/samara-vs-uralmash/,17:00
+Самара,20.04.2024,Единая лига ВТБ,МБА,Дома,85 : 77,win,https://www.sports.ru/basketball/match/mba-vs-samara/,15:00
+Самара,23.04.2024,Единая лига ВТБ,УНИКС,В гостях,83 : 73,lose,https://www.sports.ru/basketball/match/1759770/,19:00
+Самара,25.04.2024,Единая лига ВТБ,УНИКС,В гостях,77 : 64,lose,https://www.sports.ru/basketball/match/1759766/,19:00
+Автодор,01.10.2023,Единая лига ВТБ,Руна,В гостях,87 : 79,lose,https://www.sports.ru/basketball/match/1704973/,16:00
+Автодор,05.10.2023,Единая лига ВТБ,МБА,Дома,73 : 87,lose,https://www.sports.ru/basketball/match/1704969/,18:00
+Автодор,09.10.2023,Единая лига ВТБ,Уралмаш,В гостях,77 : 87,win,https://www.sports.ru/basketball/match/1704962/,17:00
+Автодор,14.10.2023,Единая лига ВТБ,Енисей,Дома,88 : 89,lose,https://www.sports.ru/basketball/match/1704957/,16:00
+Автодор,21.10.2023,Единая лига ВТБ,ЦСКА,Дома,73 : 85,lose,https://www.sports.ru/basketball/match/1704946/,16:00
+Автодор,25.10.2023,Единая лига ВТБ,Астана,В гостях,75 : 62,lose,https://www.sports.ru/basketball/match/1704933/,17:00
+Автодор,29.10.2023,Единая лига ВТБ,УНИКС,Дома,72 : 82,lose,https://www.sports.ru/basketball/match/1704918/,16:00
+Автодор,04.11.2023,Единая лига ВТБ,Самара,В гостях,74 : 86,win,https://www.sports.ru/basketball/match/1704903/,16:00
+Автодор,08.11.2023,Единая лига ВТБ,Пари Нижний Новгород,В гостях,65 : 75,win,https://www.sports.ru/basketball/match/1704887/,19:00
+Автодор,13.11.2023,Единая лига ВТБ,Зенит,Дома,64 : 89,lose,https://www.sports.ru/basketball/match/1704868/,18:00
+Автодор,19.11.2023,Единая лига ВТБ,Локомотив-Кубань,В гостях,85 : 63,lose,https://www.sports.ru/basketball/match/1704848/,14:00
+Автодор,22.11.2023,Единая лига ВТБ,Минск,В гостях,76 : 91,win,https://www.sports.ru/basketball/match/1704837/,19:30
+Автодор,26.11.2023,Единая лига ВТБ,Парма,Дома,89 : 93,lose,https://www.sports.ru/basketball/match/1704830/,16:00
+Автодор,03.12.2023,Единая лига ВТБ,Руна,Дома,79 : 66,win,https://www.sports.ru/basketball/match/1704799/,16:00
+Автодор,06.12.2023,Единая лига ВТБ,МБА,В гостях,77 : 80,win,https://www.sports.ru/basketball/match/1704793/,20:00
+Автодор,10.12.2023,Единая лига ВТБ,Уралмаш,Дома,87 : 98,lose,https://www.sports.ru/basketball/match/1704780/,16:00
+Автодор,16.12.2023,Единая лига ВТБ,ЦСКА,В гостях,96 : 66,lose,https://www.sports.ru/basketball/match/avtodor-vs-bk-cska/,14:00
+Автодор,19.12.2023,Единая лига ВТБ,Енисей,В гостях,65 : 72,win,https://www.sports.ru/basketball/match/avtodor-vs-enisey/,15:30
+Автодор,24.12.2023,Единая лига ВТБ,Астана,Дома,84 : 75,win,https://www.sports.ru/basketball/match/1704733/,16:00
+Автодор,06.01.2024,Единая лига ВТБ,Пари Нижний Новгород,Дома,89 : 85,win,https://www.sports.ru/basketball/match/1704708/,16:00
+Автодор,09.01.2024,Единая лига ВТБ,Локомотив-Кубань,Дома,88 : 98,lose,https://www.sports.ru/basketball/match/avtodor-vs-lokomotiv-kuban/,18:00
+Автодор,14.01.2024,Единая лига ВТБ,Зенит,В гостях,86 : 85,lose,https://www.sports.ru/basketball/match/avtodor-vs-zenit/,16:00
+Автодор,20.01.2024,Единая лига ВТБ,Самара,Дома,64 : 79,lose,https://www.sports.ru/basketball/match/1704666/,16:00
+Автодор,24.01.2024,Единая лига ВТБ,Парма,В гостях,84 : 67,lose,https://www.sports.ru/basketball/match/avtodor-vs-parma/,17:30
+Автодор,27.01.2024,Единая лига ВТБ,УНИКС,В гостях,89 : 71,lose,https://www.sports.ru/basketball/match/avtodor-vs-unics/,18:30
+Автодор,03.02.2024,Единая лига ВТБ,Минск,Дома,105 : 63,win,https://www.sports.ru/basketball/match/1704620/,15:00
+Автодор,09.02.2024,Единая лига ВТБ,Руна,Дома,80 : 78,win,https://www.sports.ru/basketball/match/1741449/,18:00
+Автодор,12.02.2024,Единая лига ВТБ,Астана,В гостях,65 : 82,win,https://www.sports.ru/basketball/match/1741443/,17:00
+Автодор,03.03.2024,Единая лига ВТБ,Минск,Дома,81 : 58,win,https://www.sports.ru/basketball/match/1742988/,14:00
+Автодор,06.03.2024,Единая лига ВТБ,МБА,В гостях,63 : 84,win,https://www.sports.ru/basketball/match/1742982/,20:00
+Автодор,10.03.2024,Единая лига ВТБ,Пари Нижний Новгород,Дома,81 : 74,win,https://www.sports.ru/basketball/match/1742975/,13:00
+Автодор,14.03.2024,Единая лига ВТБ,Руна,В гостях,82 : 85,win,https://www.sports.ru/basketball/match/avtodor-vs-runa/,20:00
+Автодор,21.03.2024,Единая лига ВТБ,Самара,Дома,66 : 70,lose,https://www.sports.ru/basketball/match/1742962/,18:00
+Автодор,25.03.2024,Единая лига ВТБ,Уралмаш,В гостях,82 : 66,lose,https://www.sports.ru/basketball/match/1742955/,17:15
+Автодор,28.03.2024,Единая лига ВТБ,МБА,Дома,71 : 74,lose,https://www.sports.ru/basketball/match/1742952/,18:30
+Автодор,31.03.2024,Единая лига ВТБ,Астана,Дома,92 : 83,win,https://www.sports.ru/basketball/match/astana-vs-avtodor/,15:30
+Автодор,03.04.2024,Единая лига ВТБ,Минск,В гостях,62 : 82,win,https://www.sports.ru/basketball/match/avtodor-vs-cmoki-minsk/,18:15
+Автодор,07.04.2024,Единая лига ВТБ,Самара,В гостях,86 : 71,lose,https://www.sports.ru/basketball/match/avtodor-vs-samara/,16:00
+Автодор,10.04.2024,Единая лига ВТБ,Уралмаш,Дома,85 : 86,lose,https://www.sports.ru/basketball/match/avtodor-vs-uralmash/,18:00
+Автодор,14.04.2024,Единая лига ВТБ,Пари Нижний Новгород,В гостях,65 : 81,win,https://www.sports.ru/basketball/match/avtodor-vs-bk-nizhni-novgorod/,14:00
+МБА,30.09.2023,Единая лига ВТБ,ЦСКА,В гостях,76 : 72,lose,https://www.sports.ru/basketball/match/1704976/,15:00
+МБА,05.10.2023,Единая лига ВТБ,Автодор,В гостях,73 : 87,win,https://www.sports.ru/basketball/match/1704969/,18:00
+МБА,09.10.2023,Единая лига ВТБ,Локомотив-Кубань,В гостях,79 : 71,lose,https://www.sports.ru/basketball/match/1704963/,20:00
+МБА,14.10.2023,Единая лига ВТБ,Самара,Дома,65 : 77,lose,https://www.sports.ru/basketball/match/1704958/,19:30
+МБА,17.10.2023,Единая лига ВТБ,Зенит,В гостях,85 : 74,lose,https://www.sports.ru/basketball/match/1704952/,19:30
+МБА,23.10.2023,Единая лига ВТБ,Руна,Дома,86 : 84,win,https://www.sports.ru/basketball/match/1704935/,19:30
+МБА,01.11.2023,Единая лига ВТБ,Парма,Дома,79 : 83,lose,https://www.sports.ru/basketball/match/1704914/,19:30
+МБА,05.11.2023,Единая лига ВТБ,Астана,Дома,101 : 78,win,https://www.sports.ru/basketball/match/1704899/,19:30
+МБА,09.11.2023,Единая лига ВТБ,Енисей,Дома,80 : 85,lose,https://www.sports.ru/basketball/match/1704881/,19:30
+МБА,12.11.2023,Единая лига ВТБ,Минск,Дома,84 : 54,win,https://www.sports.ru/basketball/match/1704874/,19:30
+МБА,17.11.2023,Единая лига ВТБ,Пари Нижний Новгород,В гостях,70 : 84,win,https://www.sports.ru/basketball/match/1704859/,19:00
+МБА,21.11.2023,Единая лига ВТБ,Уралмаш,Дома,87 : 90,lose,https://www.sports.ru/basketball/match/1704846/,19:30
+МБА,26.11.2023,Единая лига ВТБ,УНИКС,В гостях,87 : 78,lose,https://www.sports.ru/basketball/match/1704823/,18:00
+МБА,03.12.2023,Единая лига ВТБ,Парма,В гостях,77 : 56,lose,https://www.sports.ru/basketball/match/mba-vs-parma/,14:00
+МБА,06.12.2023,Единая лига ВТБ,Автодор,Дома,77 : 80,lose,https://www.sports.ru/basketball/match/1704793/,20:00
+МБА,09.12.2023,Единая лига ВТБ,Локомотив-Кубань,Дома,66 : 80,lose,https://www.sports.ru/basketball/match/lokomotiv-kuban-vs-mba/,19:30
+МБА,17.12.2023,Единая лига ВТБ,Зенит,Дома,48 : 93,lose,https://www.sports.ru/basketball/match/mba-vs-zenit/,17:00
+МБА,20.12.2023,Единая лига ВТБ,Самара,В гостях,76 : 65,lose,https://www.sports.ru/basketball/match/1704744/,18:30
+МБА,23.12.2023,Единая лига ВТБ,Руна,В гостях,69 : 63,lose,https://www.sports.ru/basketball/match/1704735/,16:00
+МБА,05.01.2024,Единая лига ВТБ,Енисей,В гостях,91 : 93,win,https://www.sports.ru/basketball/match/enisey-vs-mba/,13:00
+МБА,10.01.2024,Единая лига ВТБ,Пари Нижний Новгород,Дома,93 : 70,win,https://www.sports.ru/basketball/match/1704691/,20:00
+МБА,14.01.2024,Единая лига ВТБ,Минск,В гостях,79 : 86,win,https://www.sports.ru/basketball/match/1704679/,15:00
+МБА,20.01.2024,Единая лига ВТБ,Астана,В гостях,80 : 71,lose,https://www.sports.ru/basketball/match/1704669/,12:00
+МБА,23.01.2024,Единая лига ВТБ,УНИКС,Дома,62 : 85,lose,https://www.sports.ru/basketball/match/mba-vs-unics/,19:30
+МБА,27.01.2024,Единая лига ВТБ,ЦСКА,Дома,52 : 88,lose,https://www.sports.ru/basketball/match/bk-cska-vs-mba/,16:30
+МБА,04.02.2024,Единая лига ВТБ,Уралмаш,В гостях,96 : 83,lose,https://www.sports.ru/basketball/match/1704616/,15:00
+МБА,10.02.2024,Единая лига ВТБ,Уралмаш,Дома,78 : 81,lose,https://www.sports.ru/basketball/match/1741448/,15:00
+МБА,13.02.2024,Единая лига ВТБ,Пари Нижний Новгород,В гостях,50 : 68,win,https://www.sports.ru/basketball/match/1741440/,19:30
+МБА,01.03.2024,Единая лига ВТБ,Самара,Дома,69 : 79,lose,https://www.sports.ru/basketball/match/1742993/,20:00
+МБА,06.03.2024,Единая лига ВТБ,Автодор,Дома,63 : 84,lose,https://www.sports.ru/basketball/match/1742982/,20:00
+МБА,09.03.2024,Единая лига ВТБ,Минск,В гостях,60 : 73,win,https://www.sports.ru/basketball/match/1742979/,15:00
+МБА,12.03.2024,Единая лига ВТБ,Уралмаш,В гостях,77 : 79,win,https://www.sports.ru/basketball/match/mba-vs-uralmash/,17:15
+МБА,21.03.2024,Единая лига ВТБ,Руна,Дома,89 : 77,win,https://www.sports.ru/basketball/match/1742966/,20:00
+МБА,24.03.2024,Единая лига ВТБ,Астана,В гостях,54 : 76,win,https://www.sports.ru/basketball/match/1742958/,13:00
+МБА,28.03.2024,Единая лига ВТБ,Автодор,В гостях,71 : 74,win,https://www.sports.ru/basketball/match/1742952/,18:30
+МБА,31.03.2024,Единая лига ВТБ,Пари Нижний Новгород,Дома,77 : 70,win,https://www.sports.ru/basketball/match/bk-nizhni-novgorod-vs-mba/,15:00
+МБА,04.04.2024,Единая лига ВТБ,Самара,В гостях,69 : 73,win,https://www.sports.ru/basketball/match/1742940/,18:30
+МБА,07.04.2024,Единая лига ВТБ,Руна,В гостях,75 : 82,win,https://www.sports.ru/basketball/match/mba-vs-runa/,17:00
+МБА,11.04.2024,Единая лига ВТБ,Астана,Дома,83 : 77,win,https://www.sports.ru/basketball/match/astana-vs-mba/,19:30
+МБА,14.04.2024,Единая лига ВТБ,Минск,Дома,81 : 70,win,https://www.sports.ru/basketball/match/cmoki-minsk-vs-mba/,15:00
+МБА,17.04.2024,Единая лига ВТБ,Автодор,В гостях,79 : 85,win,https://www.sports.ru/basketball/match/avtodor-vs-mba/,19:00
+Руна,01.10.2023,Единая лига ВТБ,Автодор,Дома,87 : 79,win,https://www.sports.ru/basketball/match/1704973/,16:00
+Руна,06.10.2023,Единая лига ВТБ,Уралмаш,В гостях,78 : 85,win,https://www.sports.ru/basketball/match/1704966/,17:15
+Руна,09.10.2023,Единая лига ВТБ,Самара,Дома,85 : 74,win,https://www.sports.ru/basketball/match/1704960/,19:30
+Руна,15.10.2023,Единая лига ВТБ,Пари Нижний Новгород,Дома,78 : 82,lose,https://www.sports.ru/basketball/match/1704954/,16:00
+Руна,18.10.2023,Единая лига ВТБ,Парма,Дома,70 : 64,win,https://www.sports.ru/basketball/match/1704950/,20:00
+Руна,23.10.2023,Единая лига ВТБ,МБА,В гостях,86 : 84,lose,https://www.sports.ru/basketball/match/1704935/,19:30
+Руна,02.11.2023,Единая лига ВТБ,Минск,Дома,71 : 53,win,https://www.sports.ru/basketball/match/1704912/,20:00
+Руна,09.11.2023,Единая лига ВТБ,УНИКС,В гостях,83 : 86,win,https://www.sports.ru/basketball/match/1704883/,19:00
+Руна,13.11.2023,Единая лига ВТБ,Енисей,Дома,77 : 92,lose,https://www.sports.ru/basketball/match/1704866/,20:00
+Руна,18.11.2023,Единая лига ВТБ,ЦСКА,Дома,74 : 80,lose,https://www.sports.ru/basketball/match/1704855/,16:00
+Руна,22.11.2023,Единая лига ВТБ,Локомотив-Кубань,В гостях,96 : 76,lose,https://www.sports.ru/basketball/match/1704835/,20:00
+Руна,27.11.2023,Единая лига ВТБ,Зенит,Дома,85 : 97,lose,https://www.sports.ru/basketball/match/1704817/,20:00
+Руна,30.11.2023,Единая лига ВТБ,Астана,В гостях,90 : 93,win,https://www.sports.ru/basketball/match/1704814/,17:00
+Руна,03.12.2023,Единая лига ВТБ,Автодор,В гостях,79 : 66,lose,https://www.sports.ru/basketball/match/1704799/,16:00
+Руна,07.12.2023,Единая лига ВТБ,Уралмаш,Дома,86 : 82,win,https://www.sports.ru/basketball/match/1704788/,20:00
+Руна,11.12.2023,Единая лига ВТБ,Самара,В гостях,93 : 78,lose,https://www.sports.ru/basketball/match/1704771/,18:30
+Руна,16.12.2023,Единая лига ВТБ,Парма,В гостях,85 : 74,lose,https://www.sports.ru/basketball/match/parma-vs-runa/,16:00
+Руна,20.12.2023,Единая лига ВТБ,Пари Нижний Новгород,В гостях,67 : 59,lose,https://www.sports.ru/basketball/match/1704746/,19:30
+Руна,23.12.2023,Единая лига ВТБ,МБА,Дома,69 : 63,win,https://www.sports.ru/basketball/match/1704735/,16:00
+Руна,05.01.2024,Единая лига ВТБ,УНИКС,Дома,78 : 84,lose,https://www.sports.ru/basketball/match/runa-vs-unics/,17:00
+Руна,13.01.2024,Единая лига ВТБ,Енисей,В гостях,89 : 82,lose,https://www.sports.ru/basketball/match/enisey-vs-runa/,11:00
+Руна,18.01.2024,Единая лига ВТБ,ЦСКА,В гостях,89 : 79,lose,https://www.sports.ru/basketball/match/bk-cska-vs-runa/,20:00
+Руна,21.01.2024,Единая лига ВТБ,Минск,В гостях,62 : 76,win,https://www.sports.ru/basketball/match/1704660/,16:30
+Руна,25.01.2024,Единая лига ВТБ,Зенит,В гостях,93 : 62,lose,https://www.sports.ru/basketball/match/runa-vs-zenit/,19:30
+Руна,28.01.2024,Единая лига ВТБ,Астана,Дома,80 : 67,win,https://www.sports.ru/basketball/match/1704633/,16:00
+Руна,03.02.2024,Единая лига ВТБ,Локомотив-Кубань,Дома,74 : 80,lose,https://www.sports.ru/basketball/match/lokomotiv-kuban-vs-runa/,17:00
+Руна,09.02.2024,Единая лига ВТБ,Автодор,В гостях,80 : 78,lose,https://www.sports.ru/basketball/match/1741449/,18:00
+Руна,13.02.2024,Единая лига ВТБ,Самара,В гостях,85 : 98,win,https://www.sports.ru/basketball/match/1741442/,18:30
+Руна,03.03.2024,Единая лига ВТБ,Уралмаш,Дома,74 : 102,lose,https://www.sports.ru/basketball/match/1742976/,17:00
+Руна,07.03.2024,Единая лига ВТБ,Пари Нижний Новгород,В гостях,87 : 82,lose,https://www.sports.ru/basketball/match/1742981/,19:00
+Руна,14.03.2024,Единая лига ВТБ,Автодор,Дома,82 : 85,lose,https://www.sports.ru/basketball/match/avtodor-vs-runa/,20:00
+Руна,18.03.2024,Единая лига ВТБ,Астана,Дома,70 : 75,lose,https://www.sports.ru/basketball/match/1742989/,20:00
+Руна,21.03.2024,Единая лига ВТБ,МБА,В гостях,89 : 77,lose,https://www.sports.ru/basketball/match/1742966/,20:00
+Руна,24.03.2024,Единая лига ВТБ,Минск,В гостях,79 : 86,win,https://www.sports.ru/basketball/match/1742960/,15:00
+Руна,28.03.2024,Единая лига ВТБ,Пари Нижний Новгород,Дома,83 : 76,win,https://www.sports.ru/basketball/match/bk-nizhni-novgorod-vs-runa/,20:00
+Руна,01.04.2024,Единая лига ВТБ,Самара,Дома,67 : 81,lose,https://www.sports.ru/basketball/match/runa-vs-samara/,20:00
+Руна,04.04.2024,Единая лига ВТБ,Астана,В гостях,79 : 87,win,https://www.sports.ru/basketball/match/astana-vs-runa/,18:00
+Руна,07.04.2024,Единая лига ВТБ,МБА,Дома,75 : 82,lose,https://www.sports.ru/basketball/match/mba-vs-runa/,17:00
+Руна,10.04.2024,Единая лига ВТБ,Минск,Дома,78 : 74,win,https://www.sports.ru/basketball/match/cmoki-minsk-vs-runa/,20:00
+Пари Нижний Новгород,01.10.2023,Единая лига ВТБ,Минск,В гостях,60 : 89,win,https://www.sports.ru/basketball/match/1704974/,14:00
+Пари Нижний Новгород,09.10.2023,Единая лига ВТБ,Парма,В гостях,61 : 67,win,https://www.sports.ru/basketball/match/1704961/,17:30
+Пари Нижний Новгород,15.10.2023,Единая лига ВТБ,Руна,В гостях,78 : 82,win,https://www.sports.ru/basketball/match/1704954/,16:00
+Пари Нижний Новгород,19.10.2023,Единая лига ВТБ,Астана,Дома,73 : 78,lose,https://www.sports.ru/basketball/match/1704947/,20:00
+Пари Нижний Новгород,22.10.2023,Единая лига ВТБ,Енисей,В гостях,88 : 83,lose,https://www.sports.ru/basketball/match/1704945/,13:00
+Пари Нижний Новгород,29.10.2023,Единая лига ВТБ,Уралмаш,Дома,77 : 91,lose,https://www.sports.ru/basketball/match/1704916/,14:00
+Пари Нижний Новгород,04.11.2023,Единая лига ВТБ,Локомотив-Кубань,В гостях,89 : 64,lose,https://www.sports.ru/basketball/match/1704901/,15:00
+Пари Нижний Новгород,08.11.2023,Единая лига ВТБ,Автодор,Дома,65 : 75,lose,https://www.sports.ru/basketball/match/1704887/,19:00
+Пари Нижний Новгород,13.11.2023,Единая лига ВТБ,Самара,В гостях,85 : 79,lose,https://www.sports.ru/basketball/match/1704870/,18:30
+Пари Нижний Новгород,17.11.2023,Единая лига ВТБ,МБА,Дома,70 : 84,lose,https://www.sports.ru/basketball/match/1704859/,19:00
+Пари Нижний Новгород,21.11.2023,Единая лига ВТБ,Зенит,В гостях,68 : 65,lose,https://www.sports.ru/basketball/match/1704844/,20:00
+Пари Нижний Новгород,26.11.2023,Единая лига ВТБ,ЦСКА,Дома,72 : 74,lose,https://www.sports.ru/basketball/match/1704825/,14:00
+Пари Нижний Новгород,01.12.2023,Единая лига ВТБ,Минск,Дома,90 : 79,win,https://www.sports.ru/basketball/match/1704810/,19:00
+Пари Нижний Новгород,06.12.2023,Единая лига ВТБ,УНИКС,В гостях,91 : 61,lose,https://www.sports.ru/basketball/match/1704790/,19:00
+Пари Нижний Новгород,10.12.2023,Единая лига ВТБ,Парма,Дома,72 : 74,lose,https://www.sports.ru/basketball/match/bk-nizhni-novgorod-vs-parma/,15:30
+Пари Нижний Новгород,15.12.2023,Единая лига ВТБ,Астана,В гостях,92 : 61,lose,https://www.sports.ru/basketball/match/1704764/,17:00
+Пари Нижний Новгород,20.12.2023,Единая лига ВТБ,Руна,Дома,67 : 59,win,https://www.sports.ru/basketball/match/1704746/,19:30
+Пари Нижний Новгород,24.12.2023,Единая лига ВТБ,Енисей,Дома,61 : 82,lose,https://www.sports.ru/basketball/match/bk-nizhni-novgorod-vs-enisey/,15:00
+Пари Нижний Новгород,30.12.2023,Единая лига ВТБ,УНИКС,Дома,61 : 70,lose,https://www.sports.ru/basketball/match/bk-nizhni-novgorod-vs-unics/,14:30
+Пари Нижний Новгород,06.01.2024,Единая лига ВТБ,Автодор,В гостях,89 : 85,lose,https://www.sports.ru/basketball/match/1704708/,16:00
+Пари Нижний Новгород,10.01.2024,Единая лига ВТБ,МБА,В гостях,93 : 70,lose,https://www.sports.ru/basketball/match/1704691/,20:00
+Пари Нижний Новгород,14.01.2024,Единая лига ВТБ,Самара,Дома,73 : 79,lose,https://www.sports.ru/basketball/match/1704676/,14:00
+Пари Нижний Новгород,19.01.2024,Единая лига ВТБ,Локомотив-Кубань,Дома,76 : 74,win,https://www.sports.ru/basketball/match/bk-nizhni-novgorod-vs-lokomotiv-kuban/,19:00
+Пари Нижний Новгород,24.01.2024,Единая лига ВТБ,ЦСКА,В гостях,104 : 96,lose,https://www.sports.ru/basketball/match/bk-cska-vs-bk-nizhni-novgorod/,19:30
+Пари Нижний Новгород,28.01.2024,Единая лига ВТБ,Зенит,Дома,68 : 64,win,https://www.sports.ru/basketball/match/bk-nizhni-novgorod-vs-zenit/,14:00
+Пари Нижний Новгород,01.02.2024,Единая лига ВТБ,Уралмаш,В гостях,84 : 67,lose,https://www.sports.ru/basketball/match/1704622/,17:30
+Пари Нижний Новгород,13.02.2024,Единая лига ВТБ,МБА,Дома,50 : 68,lose,https://www.sports.ru/basketball/match/1741440/,19:30
+Пари Нижний Новгород,29.02.2024,Единая лига ВТБ,Уралмаш,В гостях,83 : 78,lose,https://www.sports.ru/basketball/match/1742994/,17:00
+Пари Нижний Новгород,03.03.2024,Единая лига ВТБ,Астана,В гостях,64 : 82,win,https://www.sports.ru/basketball/match/1741450/,13:00
+Пари Нижний Новгород,07.03.2024,Единая лига ВТБ,Руна,Дома,87 : 82,win,https://www.sports.ru/basketball/match/1742981/,19:00
+Пари Нижний Новгород,09.03.2024,Единая лига ВТБ,Астана,Дома,94 : 72,win,https://www.sports.ru/basketball/match/astana-vs-bk-nizhni-novgorod/,14:00
+Пари Нижний Новгород,10.03.2024,Единая лига ВТБ,Автодор,В гостях,81 : 74,lose,https://www.sports.ru/basketball/match/1742975/,13:00
+Пари Нижний Новгород,20.03.2024,Единая лига ВТБ,Минск,Дома,74 : 61,win,https://www.sports.ru/basketball/match/1742965/,19:00
+Пари Нижний Новгород,25.03.2024,Единая лига ВТБ,Самара,В гостях,70 : 80,win,https://www.sports.ru/basketball/match/1742957/,18:00
+Пари Нижний Новгород,28.03.2024,Единая лига ВТБ,Руна,В гостях,83 : 76,lose,https://www.sports.ru/basketball/match/bk-nizhni-novgorod-vs-runa/,20:00
+Пари Нижний Новгород,31.03.2024,Единая лига ВТБ,МБА,В гостях,77 : 70,lose,https://www.sports.ru/basketball/match/bk-nizhni-novgorod-vs-mba/,15:00
+Пари Нижний Новгород,03.04.2024,Единая лига ВТБ,Уралмаш,Дома,64 : 82,lose,https://www.sports.ru/basketball/match/bk-nizhni-novgorod-vs-uralmash/,19:30
+Пари Нижний Новгород,06.04.2024,Единая лига ВТБ,Минск,В гостях,58 : 79,win,https://www.sports.ru/basketball/match/bk-nizhni-novgorod-vs-cmoki-minsk/,14:30
+Пари Нижний Новгород,10.04.2024,Единая лига ВТБ,Самара,Дома,56 : 80,lose,https://www.sports.ru/basketball/match/bk-nizhni-novgorod-vs-samara/,19:00
+Астана,14.10.2023,Единая лига ВТБ,Зенит,Дома,69 : 78,lose,https://www.sports.ru/basketball/match/1704959/,12:00
+Астана,19.10.2023,Единая лига ВТБ,Пари Нижний Новгород,В гостях,73 : 78,win,https://www.sports.ru/basketball/match/1704947/,20:00
+Астана,25.10.2023,Единая лига ВТБ,Автодор,Дома,75 : 62,win,https://www.sports.ru/basketball/match/1704933/,17:00
+Астана,28.10.2023,Единая лига ВТБ,ЦСКА,В гостях,96 : 66,lose,https://www.sports.ru/basketball/match/1704920/,14:00
+Астана,02.11.2023,Единая лига ВТБ,УНИКС,В гостях,96 : 65,lose,https://www.sports.ru/basketball/match/1704909/,19:00
+Астана,05.11.2023,Единая лига ВТБ,МБА,В гостях,101 : 78,lose,https://www.sports.ru/basketball/match/1704899/,19:30
+Астана,09.11.2023,Единая лига ВТБ,Локомотив-Кубань,Дома,78 : 68,win,https://www.sports.ru/basketball/match/1704885/,17:00
+Астана,12.11.2023,Единая лига ВТБ,Уралмаш,Дома,80 : 72,win,https://www.sports.ru/basketball/match/1704879/,12:00
+Астана,15.11.2023,Единая лига ВТБ,Минск,Дома,78 : 74,win,https://www.sports.ru/basketball/match/1704863/,17:00
+Астана,19.11.2023,Единая лига ВТБ,Парма,В гостях,82 : 64,lose,https://www.sports.ru/basketball/match/1704850/,16:00
+Астана,22.11.2023,Единая лига ВТБ,Енисей,В гостях,96 : 92,lose,https://www.sports.ru/basketball/match/1704841/,15:30
+Астана,27.11.2023,Единая лига ВТБ,Самара,Дома,83 : 66,win,https://www.sports.ru/basketball/match/1704821/,17:00
+Астана,30.11.2023,Единая лига ВТБ,Руна,Дома,90 : 93,lose,https://www.sports.ru/basketball/match/1704814/,17:00
+Астана,03.12.2023,Единая лига ВТБ,ЦСКА,Дома,78 : 112,lose,https://www.sports.ru/basketball/match/astana-vs-bk-cska/,12:00
+Астана,07.12.2023,Единая лига ВТБ,Минск,В гостях,84 : 89,win,https://www.sports.ru/basketball/match/1704786/,18:30
+Астана,11.12.2023,Единая лига ВТБ,УНИКС,Дома,75 : 97,lose,https://www.sports.ru/basketball/match/astana-vs-unics/,17:00
+Астана,15.12.2023,Единая лига ВТБ,Пари Нижний Новгород,Дома,92 : 61,win,https://www.sports.ru/basketball/match/1704764/,17:00
+Астана,21.12.2023,Единая лига ВТБ,Зенит,В гостях,95 : 79,lose,https://www.sports.ru/basketball/match/astana-vs-zenit/,19:30
+Астана,24.12.2023,Единая лига ВТБ,Автодор,В гостях,84 : 75,lose,https://www.sports.ru/basketball/match/1704733/,16:00
+Астана,05.01.2024,Единая лига ВТБ,Локомотив-Кубань,В гостях,93 : 83,lose,https://www.sports.ru/basketball/match/astana-vs-lokomotiv-kuban/,14:00
+Астана,10.01.2024,Единая лига ВТБ,Парма,Дома,76 : 86,lose,https://www.sports.ru/basketball/match/astana-vs-parma/,17:00
+Астана,14.01.2024,Единая лига ВТБ,Уралмаш,В гостях,74 : 71,lose,https://www.sports.ru/basketball/match/1704681/,13:00
+Астана,20.01.2024,Единая лига ВТБ,МБА,Дома,80 : 71,win,https://www.sports.ru/basketball/match/1704669/,12:00
+Астана,24.01.2024,Единая лига ВТБ,Самара,В гостях,66 : 78,win,https://www.sports.ru/basketball/match/1704652/,18:30
+Астана,28.01.2024,Единая лига ВТБ,Руна,В гостях,80 : 67,lose,https://www.sports.ru/basketball/match/1704633/,16:00
+Астана,01.02.2024,Единая лига ВТБ,Енисей,Дома,69 : 97,lose,https://www.sports.ru/basketball/match/astana-vs-enisey/,14:00
+Астана,12.02.2024,Единая лига ВТБ,Автодор,Дома,65 : 82,lose,https://www.sports.ru/basketball/match/1741443/,17:00
+Астана,03.03.2024,Единая лига ВТБ,Пари Нижний Новгород,Дома,64 : 82,lose,https://www.sports.ru/basketball/match/1741450/,13:00
+Астана,06.03.2024,Единая лига ВТБ,Минск,Дома,76 : 70,win,https://www.sports.ru/basketball/match/1742983/,18:00
+Астана,09.03.2024,Единая лига ВТБ,Пари Нижний Новгород,В гостях,94 : 72,lose,https://www.sports.ru/basketball/match/astana-vs-bk-nizhni-novgorod/,14:00
+Астана,13.03.2024,Единая лига ВТБ,Самара,В гостях,84 : 63,lose,https://www.sports.ru/basketball/match/1742973/,18:30
+Астана,18.03.2024,Единая лига ВТБ,Руна,В гостях,70 : 75,win,https://www.sports.ru/basketball/match/1742989/,20:00
+Астана,21.03.2024,Единая лига ВТБ,Уралмаш,Дома,61 : 96,lose,https://www.sports.ru/basketball/match/1742961/,18:00
+Астана,24.03.2024,Единая лига ВТБ,МБА,Дома,54 : 76,lose,https://www.sports.ru/basketball/match/1742958/,13:00
+Астана,27.03.2024,Единая лига ВТБ,Минск,В гостях,60 : 58,lose,https://www.sports.ru/basketball/match/astana-vs-cmoki-minsk/,18:15
+Астана,31.03.2024,Единая лига ВТБ,Автодор,В гостях,92 : 83,lose,https://www.sports.ru/basketball/match/astana-vs-avtodor/,15:30
+Астана,04.04.2024,Единая лига ВТБ,Руна,Дома,79 : 87,lose,https://www.sports.ru/basketball/match/astana-vs-runa/,18:00
+Астана,07.04.2024,Единая лига ВТБ,Уралмаш,В гостях,87 : 79,lose,https://www.sports.ru/basketball/match/astana-vs-uralmash/,15:00
+Астана,11.04.2024,Единая лига ВТБ,МБА,В гостях,83 : 77,lose,https://www.sports.ru/basketball/match/astana-vs-mba/,19:30
+Минск,01.10.2023,Единая лига ВТБ,Пари Нижний Новгород,Дома,60 : 89,lose,https://www.sports.ru/basketball/match/1704974/,14:00
+Минск,08.10.2023,Единая лига ВТБ,Енисей,В гостях,73 : 64,lose,https://www.sports.ru/basketball/match/1704965/,12:30
+Минск,16.10.2023,Единая лига ВТБ,УНИКС,Дома,49 : 97,lose,https://www.sports.ru/basketball/match/1704953/,18:30
+Минск,19.10.2023,Единая лига ВТБ,Самара,Дома,78 : 91,lose,https://www.sports.ru/basketball/match/1704949/,19:00
+Минск,22.10.2023,Единая лига ВТБ,Парма,В гостях,78 : 73,lose,https://www.sports.ru/basketball/match/1704942/,15:00
+Минск,25.10.2023,Единая лига ВТБ,ЦСКА,В гостях,112 : 84,lose,https://www.sports.ru/basketball/match/1704928/,20:00
+Минск,02.11.2023,Единая лига ВТБ,Руна,В гостях,71 : 53,lose,https://www.sports.ru/basketball/match/1704912/,20:00
+Минск,07.11.2023,Единая лига ВТБ,Уралмаш,Дома,73 : 101,lose,https://www.sports.ru/basketball/match/1704894/,19:00
+Минск,12.11.2023,Единая лига ВТБ,МБА,В гостях,84 : 54,lose,https://www.sports.ru/basketball/match/1704874/,19:30
+Минск,15.11.2023,Единая лига ВТБ,Астана,В гостях,78 : 74,lose,https://www.sports.ru/basketball/match/1704863/,17:00
+Минск,18.11.2023,Единая лига ВТБ,Зенит,Дома,62 : 84,lose,https://www.sports.ru/basketball/match/1704857/,15:00
+Минск,22.11.2023,Единая лига ВТБ,Автодор,Дома,76 : 91,lose,https://www.sports.ru/basketball/match/1704837/,19:30
+Минск,26.11.2023,Единая лига ВТБ,Локомотив-Кубань,Дома,86 : 90,lose,https://www.sports.ru/basketball/match/1704828/,15:00
+Минск,01.12.2023,Единая лига ВТБ,Пари Нижний Новгород,В гостях,90 : 79,lose,https://www.sports.ru/basketball/match/1704810/,19:00
+Минск,07.12.2023,Единая лига ВТБ,Астана,Дома,84 : 89,lose,https://www.sports.ru/basketball/match/1704786/,18:30
+Минск,11.12.2023,Единая лига ВТБ,Енисей,Дома,74 : 89,lose,https://www.sports.ru/basketball/match/cmoki-minsk-vs-enisey/,19:00
+Минск,16.12.2023,Единая лига ВТБ,Самара,В гостях,79 : 68,lose,https://www.sports.ru/basketball/match/1704760/,15:00
+Минск,21.12.2023,Единая лига ВТБ,УНИКС,В гостях,101 : 81,lose,https://www.sports.ru/basketball/match/cmoki-minsk-vs-unics/,19:00
+Минск,25.12.2023,Единая лига ВТБ,ЦСКА,Дома,83 : 97,lose,https://www.sports.ru/basketball/match/bk-cska-vs-cmoki-minsk/,15:00
+Минск,07.01.2024,Единая лига ВТБ,Уралмаш,В гостях,104 : 72,lose,https://www.sports.ru/basketball/match/1704706/,15:00
+Минск,11.01.2024,Единая лига ВТБ,Зенит,В гостях,96 : 69,lose,https://www.sports.ru/basketball/match/cmoki-minsk-vs-zenit/,19:30
+Минск,14.01.2024,Единая лига ВТБ,МБА,Дома,79 : 86,lose,https://www.sports.ru/basketball/match/1704679/,15:00
+Минск,21.01.2024,Единая лига ВТБ,Руна,Дома,62 : 76,lose,https://www.sports.ru/basketball/match/1704660/,16:30
+Минск,24.01.2024,Единая лига ВТБ,Локомотив-Кубань,В гостях,95 : 59,lose,https://www.sports.ru/basketball/match/cmoki-minsk-vs-lokomotiv-kuban/,20:00
+Минск,29.01.2024,Единая лига ВТБ,Парма,Дома,59 : 88,lose,https://www.sports.ru/basketball/match/cmoki-minsk-vs-parma/,19:00
+Минск,03.02.2024,Единая лига ВТБ,Автодор,В гостях,105 : 63,lose,https://www.sports.ru/basketball/match/1704620/,15:00
+Минск,10.02.2024,Единая лига ВТБ,Самара,В гостях,79 : 71,lose,https://www.sports.ru/basketball/match/1741444/,16:00
+Минск,13.02.2024,Единая лига ВТБ,Уралмаш,Дома,77 : 89,lose,https://www.sports.ru/basketball/match/1741441/,17:30
+Минск,03.03.2024,Единая лига ВТБ,Автодор,В гостях,81 : 58,lose,https://www.sports.ru/basketball/match/1742988/,14:00
+Минск,06.03.2024,Единая лига ВТБ,Астана,В гостях,76 : 70,lose,https://www.sports.ru/basketball/match/1742983/,18:00
+Минск,09.03.2024,Единая лига ВТБ,МБА,Дома,60 : 73,lose,https://www.sports.ru/basketball/match/1742979/,15:00
+Минск,17.03.2024,Единая лига ВТБ,Самара,Дома,86 : 96,lose,https://www.sports.ru/basketball/match/cmoki-minsk-vs-samara/,15:00
+Минск,20.03.2024,Единая лига ВТБ,Пари Нижний Новгород,В гостях,74 : 61,lose,https://www.sports.ru/basketball/match/1742965/,19:00
+Минск,24.03.2024,Единая лига ВТБ,Руна,Дома,79 : 86,lose,https://www.sports.ru/basketball/match/1742960/,15:00
+Минск,27.03.2024,Единая лига ВТБ,Астана,Дома,60 : 58,win,https://www.sports.ru/basketball/match/astana-vs-cmoki-minsk/,18:15
+Минск,31.03.2024,Единая лига ВТБ,Уралмаш,В гостях,85 : 79,lose,https://www.sports.ru/basketball/match/cmoki-minsk-vs-uralmash/,16:00
+Минск,03.04.2024,Единая лига ВТБ,Автодор,Дома,62 : 82,lose,https://www.sports.ru/basketball/match/avtodor-vs-cmoki-minsk/,18:15
+Минск,06.04.2024,Единая лига ВТБ,Пари Нижний Новгород,Дома,58 : 79,lose,https://www.sports.ru/basketball/match/bk-nizhni-novgorod-vs-cmoki-minsk/,14:30
+Минск,10.04.2024,Единая лига ВТБ,Руна,В гостях,78 : 74,lose,https://www.sports.ru/basketball/match/cmoki-minsk-vs-runa/,20:00

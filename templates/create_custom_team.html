@@ -1,0 +1,54 @@
+{% extends 'nav.html' %}
+{% block title %}Создать команду{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row justify-content-center mt-5">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="text-center">Создать команду</h4>
+                </div>
+                <div class="card-body">
+                    {% if error %}
+                    <div class="alert alert-danger">{{ error }}</div>
+                    {% endif %}
+                    <form method="post" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Название команды</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="games" class="form-label">Игры</label>
+                            <input type="number" class="form-control" id="games" name="games" required value="0">
+                        </div>
+                        <div class="mb-3">
+                            <label for="wins" class="form-label">Победы</label>
+                            <input type="number" class="form-control" id="wins" name="wins" required value="0">
+                        </div>
+                        <div class="mb-3">
+                            <label for="loses" class="form-label">Поражения</label>
+                            <input type="number" class="form-control" id="loses" name="loses" required value="0">
+                        </div>
+                        <div class="mb-3">
+                            <label for="description" class="form-label">Описание</label>
+                            <textarea class="form-control" id="description" name="description" rows="3"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="logo" class="form-label">Логотип команды</label>
+                            <input type="file" class="form-control" id="logo" name="logo" accept="image/*">
+                        </div>
+                        <div class="mb-3">
+                            <label for="logo_links" class="form-label">Ссылка на логотип</label>
+                            <p class="text-muted">Если вы не хотите загружать логотип, введите ссылку на изображение</p>
+                            <input type="text" class="form-control" id="logo_links" name="logo_links">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Создать</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

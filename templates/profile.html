@@ -1,0 +1,171 @@
+{% extends 'nav.html' %}
+{% load static %}
+{% block title %}Профиль пользователя{% endblock %}
+{% block content %}
+
+    <div class="container">
+        <div class="row justify-content-center mt-4">
+            <div class="col-8">
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="card-title">Профиль пользователя</h4>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Имя пользователя:</strong> {{ user.username }}</p>
+                        <p><strong>Имя:</strong> {{ user.first_name }}</p>
+                        <p><strong>Фамилия:</strong> {{ user.last_name }}</p>
+                        <p><strong>Email:</strong> {{ user.email }}</p>
+                    </div>
+                </div>
+                <div class="card mt-4">
+                    <div class="card-header">
+                        <h4 class="card-title mb-0">Подписка</h4>
+                    </div>
+                    <div class="card-body">
+                        {% if sub %}
+                            <p>Подписка активна до {{ sub.active_until }}</p>
+                        {% else %}
+                            <p>У вас нет активной подписки</p>
+                            <p>Вы можете приобрести подписку <a href="{% url 'buy_subscription' %}">здесь</a></p>
+
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="card mt-4">
+                    <div class="card-header">
+                        <h4 class="card-title mb-0">Команды</h4>
+                        {% if user_teams %}
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush">
+                                    {% for team in user_teams %}
+                                        <li class="list-group list-group-item">
+                                            <a href="{% url 'team_detail' team.team.id %}">{{ team.team.name }}</a>
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        {% else %}
+                            <div class="card-body">
+                                <p>Пользотель не значится в командах</p>
+                            </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            {% if user == request.user %}
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4 class="card-title">Уведомления</h4>
+                        </div>
+                        <div class="card-body">
+                            {% if notifications %}
+                                <ul class="list-group">
+                                    {% for notification in notifications %}
+                                        <li class="list-group-item notification-item {% if not notification.is_readed %}font-weight-bold{% endif %}"
+                                            {% if not notification.is_readed %}style='background-color: #efefef;'{% endif %}
+                                            data-notification-id="{{ notification.id }}">
+                                            {% if notification.notification_type == 'invite' %}
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <div>
+                                                        Вы были приглашены в команду
+                                                        {% if notification.team.id %}
+                                                            <a href="{% url 'team_detail' notification.team.id %}">{{ notification.team.name }}</a>
+                                                        {% else %}
+                                                            {{ notification.team.name }}
+                                                        {% endif %}
+                                                        <br>
+                                                        {% if not notification.is_invited and not notification.is_rejected %}
+                                                            <span class="float-right">
+                                                                <button class="btn accept-invite"
+                                                                        data-notification-id="{{ notification.id }}">
+                                                                    <i class="fa-solid fa-check "></i>
+                                                                </button> 
+                                                                <button class="btn decline-invite"
+                                                                        data-notification-id="{{ notification.id }}">
+                                                                    <i class="fa-solid fa-xmark decline-invite"></i>
+                                                                </button>
+                                                            </span>
+                                                        {% endif %}
+                                                    </div>
+                                                    <div>
+                                                        <button class="btn btn-sm delete-notification"
+                                                                data-notification-id="{{ notification.id }}">
+                                                            <i class="fa-solid fa-trash-can"
+                                                               style="font-size: 0.8rem;"></i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            {% endif %}
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                            {% else %}
+                                <p>У вас нет новых уведомлений.</p>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://kit.fontawesome.com/5b20d6f848.js" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $('.notification-item').click(function () {
+                if (!$(this).hasClass('font-weight-bold')) {
+                    return;
+                }
+
+                let notificationId = $(this).data('notification-id');
+                $.ajax({
+                    url: '/mark_notification_read/' + notificationId + '/',
+                    method: 'POST',
+                    data: {
+                        notification_id: notificationId,
+                        csrfmiddlewaretoken: '{{ csrf_token }}'
+                    },
+                    success: function () {
+                        location.reload();
+                    }
+                });
+            });
+
+            $('.accept-invite, .decline-invite').click(function () {
+                let notificationId = $(this).data('notification-id');
+                let action = $(this).hasClass('accept-invite') ? 'accept' : 'decline';
+                // Отправляем AJAX-запрос для обработки действия
+                $.ajax({
+                    url: '/process_invite/' + notificationId + '/',
+                    method: 'POST',
+                    data: {
+                        notification_id: notificationId,
+                        action: action,
+                        csrfmiddlewaretoken: '{{ csrf_token }}'
+                    },
+                    success: function () {
+
+                        location.reload();
+                    }
+                });
+            });
+
+            // Удаление уведомления
+            $('.delete-notification').click(function () {
+                let notificationId = $(this).data('notification-id');
+                $.ajax({
+                    url: '/delete_notification/' + notificationId + '/',
+                    method: 'POST',
+                    data: {
+                        notification_id: notificationId,
+                        csrfmiddlewaretoken: '{{ csrf_token }}'
+                    },
+                    success: function () {
+                        location.reload();
+                    }
+                });
+            });
+        });
+    </script>
+{% endblock %}

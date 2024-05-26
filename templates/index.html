@@ -1,0 +1,52 @@
+{% extends 'nav.html' %}
+{% load static %}
+{% block content %}
+    <style>
+
+        .main-content {
+            animation: fadeInUp 1s ease-out;
+        }
+
+        /* Animation for navigation */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Animation for main content */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+    <div class="main-content animate__animated animate__fadeInUp text-center">
+        <div class=""
+             style="background-image: url({% static 'img/index.jpg' %});
+                     background-size: cover;
+                     background-position: center;
+                     width: 100%;
+                     min-height: 95vh;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="text-center text-white pt-5">Добро пожаловать!</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

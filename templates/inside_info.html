@@ -1,0 +1,38 @@
+{% extends 'nav.html' %}
+{% block content %}
+    <div class="container" style="margin-top: 15px">
+        <div class="container">
+            <h2>Информация для команды</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="{% url 'create_inside_files' team %}" class="btn btn-outline-primary">Добавить материал</a>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 10px">
+                {% for file in team_files %}
+                    <div class="col-sm-6 col-md-3" style="margin-top: 5px">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-subtitle mb-2 text-body-secondary">{{ file.created_at }}</h6>
+                                <p class="card-text">{{ file.description }}</p>
+                                {% if file.filename is not None %}
+                                <p class="card-text">{{ file.filename }}</p>
+                                <a class="btn text-decoration-none text-reset" href="{{ file.file.url }}" download>
+                                    <i class="fa-solid fa-download"></i></a>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <script>
+        //скачивание файла
+        function downloadFile(file) {
+            window.location.href = file;
+        }
+    </script>
+{% endblock %}
